@@ -1,27 +1,29 @@
 <template>
   <div>
     <imagesheader />
-    <!-- <Nuxt /> -->
-    <RequestFormhtml />
+    <Nuxt />
   </div>
 </template>
 
 <script>
 import Imagesheader from '../components/Imagesheader';
-import RequestFormhtml from '../components/RequestFormhtml'
+
 
 export default {
   components: {
     Imagesheader,
-    head() {
+  },
+  head() {
       return {
         title: "Request Form"
       }
-    }
   }
 }
 </script>
 
 <style>
-
+body {
+  background-color: #f6f7f8 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
 </style>
