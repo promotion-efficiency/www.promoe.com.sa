@@ -136,7 +136,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/1.png",
+                    "picture":"/assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -144,7 +144,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/2.png",
+                    "picture":"/assets/imgs/work/2.png",
                     "link":""
 
                 },
@@ -152,7 +152,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/3.png",
+                    "picture":"/assets/imgs/work/3.png",
                     "link":""
 
                 },
@@ -160,7 +160,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/1.png",
+                    "picture":"/assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -168,7 +168,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/2.png",
+                    "picture":"/assets/imgs/work/2.png",
                     "link":""
 
                 },
@@ -176,7 +176,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/3.png",
+                    "picture":"/assets/imgs/work/3.png",
                     "link":""
 
                 },
@@ -184,7 +184,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/1.png",
+                    "picture":"/assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -192,7 +192,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"assets/imgs/work/2.png",
+                    "picture":"/assets/imgs/work/2.png",
                     "link":""
 
                 }
@@ -204,63 +204,63 @@
             "content":[
                 {
                     "client_name":"65 Degrees",
-                    "logo":"assets/imgs/clientlogos/65.svg"
+                    "logo":"/assets/imgs/clientlogos/65.svg"
                 },
                 {
                     "client_name":"AQUAFINA",
-                    "logo":"assets/imgs/clientlogos/aquafina.svg"
+                    "logo":"/assets/imgs/clientlogos/aquafina.svg"
                 },
                 {
                     "client_name":"Carlton alMoaibed Hotel",
-                    "logo":"assets/imgs/clientlogos/carlton.svg"
+                    "logo":"/assets/imgs/clientlogos/carlton.svg"
                 },
                 {
                     "client_name":"Civil Defense Directorate",
-                    "logo":"assets/imgs/clientlogos/civil.svg"
+                    "logo":"/assets/imgs/clientlogos/civil.svg"
                 },
                 {
                     "client_name":"Danderah",
-                    "logo":"assets/imgs/clientlogos/danderah.svg"
+                    "logo":"/assets/imgs/clientlogos/danderah.svg"
                 },
                 {
                     "client_name":"KFUPM",
-                    "logo":"assets/imgs/clientlogos/kfupm.svg"
+                    "logo":"/assets/imgs/clientlogos/kfupm.svg"
                 },
                 {
                     "client_name":"NUGTAH",
-                    "logo":"assets/imgs/clientlogos/nugtah.svg"
+                    "logo":"/assets/imgs/clientlogos/nugtah.svg"
                 },
                 {
                     "client_name":"PEPSI",
-                    "logo":"assets/imgs/clientlogos/pepsi.svg"
+                    "logo":"/assets/imgs/clientlogos/pepsi.svg"
                 },
                 {
                     "client_name":"Bake n Take",
-                    "logo":"assets/imgs/clientlogos/bakentake.svg"
+                    "logo":"/assets/imgs/clientlogos/bakentake.svg"
                 },
                 {
                     "client_name":"Last Summer",
-                    "logo":"assets/imgs/clientlogos/lastsummer.svg"
+                    "logo":"/assets/imgs/clientlogos/lastsummer.svg"
                 },
                 {
                     "client_name":"Munch Bakery",
-                    "logo":"assets/imgs/clientlogos/munch.svg"
+                    "logo":"/assets/imgs/clientlogos/munch.svg"
                 },
                 {
                     "client_name":"Dice",
-                    "logo":"assets/imgs/clientlogos/dice.svg"
+                    "logo":"/assets/imgs/clientlogos/dice.svg"
                 },
                 {
                     "client_name":"Esad",
-                    "logo":"assets/imgs/clientlogos/esad.svg"
+                    "logo":"/assets/imgs/clientlogos/esad.svg"
                 },
                 {
                     "client_name":"IntelCodes",
-                    "logo":"assets/imgs/clientlogos/intelcodes.svg"
+                    "logo":"/assets/imgs/clientlogos/intelcodes.svg"
                 },
                 {
                     "client_name":"Lipton",
-                    "logo":"assets/imgs/clientlogos/lipton.svg"
+                    "logo":"/assets/imgs/clientlogos/lipton.svg"
                 }
             ]
         },

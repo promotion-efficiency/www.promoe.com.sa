@@ -1,0 +1,30 @@
+section#contact {
+    background-color: #464838;
+    font-size: 14px;
+    font-weight: 400;
+
+    h2 {
+      small {
+        color: #B8D331;
+        font-size: 80%;
+      }
+    }
+
+    ::placeholder {
+      color: #777777;
+    }
+
+    form {
+      .form-control {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        border-radius: 0;
+      }
+    }
+  }
+
+  

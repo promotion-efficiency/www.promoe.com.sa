@@ -31,6 +31,3 @@ export default {
 // Set Background Images for team members
 </script>
 
-
-<style scoped src="../../assets/Css/hero.css">
-</style>
