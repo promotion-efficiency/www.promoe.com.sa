@@ -335,8 +335,6 @@
 </template>
 
 <script>
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
     name: 'RequestFormhtml',
@@ -344,22 +342,4 @@ export default {
 </script>
 
 <style scoped>
-hr {
-    width: 95%;
-    margin: 50px auto !important;
-    text-align: left;
-}
-
-.wrapper {
-    width: 70%;
-    margin: auto;
-}
-
-.container {
-    padding: 90px 0px;
-}
-
-.form-group {
-    padding: 15px 0px;
-}
 </style>
