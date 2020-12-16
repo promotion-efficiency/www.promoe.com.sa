@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      publicPath: process.env.BASE_URL,
+      publicPath: process.env.baseUrl,
     };
   },
   mounted(){
@@ -33,6 +33,7 @@ export default {
         stick_or_not()
     });
     stick_or_not()
+
     function stick_or_not() {
       const header = document.querySelector('section#hero header')
       const nav = document.querySelector('section#hero header nav')
@@ -43,6 +44,7 @@ export default {
           nav.classList.add('navbar-light')
           nav.classList.add('text-white')
           nav.classList.remove('navbar-dark')
+
       } 
       else {
           header.classList.remove('sticky')

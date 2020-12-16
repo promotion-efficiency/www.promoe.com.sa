@@ -1,0 +1,103 @@
+section#services {
+  font-size: 100%;
+  color: white;
+}
+
+section#services .card {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #F0F4CD;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 0;
+  background-color: #FFF;
+  background-blend-mode: luminosity, normal;
+}
+
+section#services .card::after {
+  content: " ";
+  background: #7a7a7a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgba(122, 122, 122, 0.8)), color-stop(80%, rgba(182, 182, 182, 0.2)));
+  background: linear-gradient(0deg, rgba(122, 122, 122, 0.8) 30%, rgba(182, 182, 182, 0.2) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a7a7a",endColorstr="#b6b6b6",GradientType=1);
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+section#services .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+section#services .card .card-body .card-text {
+  width: 100%;
+}
+
+section#services .card .card-body .card-text img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section#services .card .card-body .card-text h4 {
+  font-weight: 700;
+  position: relative;
+}
+
+section#services .card .card-body .card-text h4::after {
+  content: " ";
+  background-color: #B8D432;
+  display: block;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 7px;
+  width: 40%;
+}
+
+section#services .card .card-body .card-text p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+section#services .card:hover {
+  -webkit-transform: translate(0, -12px);
+  transform: translate(0, -12px);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 5;
+}
+
+section#services .card:hover::after {
+  background: #c5ff37;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, rgba(69, 96, 4, 0.8)), color-stop(80%, rgba(111, 153, 7, 0.5)));
+  background: linear-gradient(0deg, rgba(69, 96, 4, 0.8) 35%, rgba(111, 153, 7, 0.5) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5ff37",endColorstr="#c5ff37",GradientType=1);
+}
+
+section#services .VueCarousel-wrapper {
+  overflow: unset;
+}
+/*# sourceMappingURL=services.css.map */

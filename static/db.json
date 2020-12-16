@@ -30,25 +30,25 @@
             "content":[
                 {
                     "number":"01",
-                    "icon":"assets/imgs/icons/review.svg",
+                    "icon":"/assets/imgs/icons/review.svg",
                     "title":"TRUST",
                     "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible digital experiences that have stepped out of conventional standards and paid off in very considerable ways - every time."
                 },
                 {
                     "number":"02",
-                    "icon":"assets/imgs/icons/review.svg",
+                    "icon":"/assets/imgs/icons/review.svg",
                     "title":"INTEGRITY",
                     "text":"Distribution is a family owned transportation and distribution company located in Houston, Texas."
                 },
                 {
                     "number":"03",
-                    "icon":"assets/imgs/icons/search.svg",
+                    "icon":"/assets/imgs/icons/search.svg",
                     "title":"EFFICIENCY",
                     "text":"LSI Distribution is a family owned transportation and distribution company located in Houston, Texas. We provide our customers with supply chain solutions."
                 },
                 {
                     "number":"04",
-                    "icon":"assets/imgs/icons/watch.svg",
+                    "icon":"/assets/imgs/icons/watch.svg",
                     "title":"CREATIVITY",
                     "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible"
                 }
@@ -58,8 +58,8 @@
             "title":"It could be <br /><strong>YOURS<strong>",
             "subtitle":"PROMO VIDEO",
             "content":{
-                "url": "assets/videos/Photography.mp4",
-                "poster": "assets/imgs/youtube/youtube-video1600.png"
+                "url": "/assets/videos/Photography.mp4",
+                "poster": "/assets/imgs/youtube/youtube-video1600.png"
             }
         },
         "services":{
@@ -73,27 +73,27 @@
                 },
                 {
                     "title":"Content Creation",
-                    "background":"assets/imgs/services/pexels-cottonbro-5095887.jpg",
+                    "background":"/assets/imgs/services/pexels-cottonbro-5095887.jpg",
                     "breif":"Scripts and write-ups to describe your goal"
                 },
                 {
                     "title":"IT",
-                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "background":"/assets/imgs/services/pexels-ovan-57690.jpg",
                     "breif":"A bundle of creative IT consultation services"
                 },
                 {
                     "title":"Branding",
-                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "background":"/assets/imgs/services/pexels-ovan-57690.jpg",
                     "breif":"Let your brand, speak your self"
                 },
                 {
                     "title":"Content Creation 2",
-                    "background":"assets/imgs/services/pexels-cottonbro-5095887.jpg",
+                    "background":"/assets/imgs/services/pexels-cottonbro-5095887.jpg",
                     "breif":"Scripts and write-ups to describe your goal"
                 },
                 {
                     "title":"IT 2",
-                    "background":"assets/imgs/services/pexels-ovan-57690.jpg",
+                    "background":"/assets/imgs/services/pexels-ovan-57690.jpg",
                     "breif":"A bundle of creative IT consultation services, what happens if we write more and more text over here, what if we put more and more to the limit that our text becomes 8 lines?"
                 }
             ]

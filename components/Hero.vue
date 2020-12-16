@@ -8,13 +8,14 @@
     <div class="layer layer_3" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/hero/layer_3.png)' }"></div>
     <div class="layer layer_4" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/hero/layer_4.png)' }"></div>
     <div class="layer layer_5 animate__animated animate__shakeX animate__infinite" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/hero/layer_5.png)' }"></div>
-    <!-- <h1 v-html="this.jsonData.general.slogan" class="text-center mt-5" style="z-index: 6; position: relative">
-    </h1> -->
+    <h1 v-html="this.$store.state.jsonData.general.slogan" class="text-center mt-5" style="z-index: 6; position: relative">
+    </h1>
   </section>
 </template>
 
 <script>
-import Navbar from "../Hero/_Navbar";
+import Navbar from "@/components/_Navbar.vue";
+
 export default {
   components: {
     Navbar,
@@ -22,7 +23,7 @@ export default {
   data() {
     return {
       myData : this.myData,
-      publicPath: process.env.BASE_URL,
+      publicPath: process.env.baseUrl,
     }
   },
   mounted() {
@@ -30,4 +31,3 @@ export default {
 };
 // Set Background Images for team members
 </script>
-

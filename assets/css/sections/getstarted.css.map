@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAA,WAAW,CAAC;EACjB,UAAU,EAAE,IAAI;EACd,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,QAAQ;EACzB,iBAAiB,EAAE,SAAS;CAU7B;;AAdH,AAOI,OAPG,AAAA,WAAW,CAOd,IAAI,AAAA,YAAY,CAAC;EACf,gBAAgB,EAAE,OAAO;CAC1B;;AATL,AAWI,OAXG,AAAA,WAAW,CAWd,IAAI,AAAA,WAAW,CAAC;EACd,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "getstarted.scss"
+    ],
+    "names": [],
+    "file": "getstarted.css"
+}

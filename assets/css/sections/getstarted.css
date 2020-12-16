@@ -1,0 +1,15 @@
+section#getstarted {
+  min-height: 90vh;
+  background-position: center bottom;
+  background-size: auto 70%;
+  background-repeat: no-repeat;
+}
+
+section#getstarted .btn.btn-success {
+  background-color: #B8D432;
+}
+
+section#getstarted .btn.btn-danger {
+  background-color: #DB4949;
+}
+/*# sourceMappingURL=getstarted.css.map */

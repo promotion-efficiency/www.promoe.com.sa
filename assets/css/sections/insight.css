@@ -1,0 +1,74 @@
+section#insight {
+  background-color: #292929;
+  background-position: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  border: none;
+}
+
+section#insight .card {
+  background-position: -200% 0%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 8rem;
+}
+
+section#insight .card .card-body {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#insight .card h4 {
+  font-weight: 700;
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+section#insight .card.clients h4 {
+  color: #27a6a1;
+}
+
+section#insight .card.employees h4 {
+  color: #4a6cb3;
+}
+
+section#insight .card.campaigns h4 {
+  color: #b84f89;
+}
+
+section#insight .card.hours h4 {
+  color: #c99f6b;
+}
+
+section#insight .card small {
+  color: #6e757d;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+section#insight .tt-shape-top {
+  top: -1px;
+}
+
+section#insight .tt-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  z-index: 1;
+  direction: ltr;
+}
+/*# sourceMappingURL=insight.css.map */
