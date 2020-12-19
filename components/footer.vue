@@ -14,7 +14,7 @@
             <li><a href="#" class="text-white">Home</a></li>
             <li><a href="#" class="text-white">Services</a></li>
             <li><a href="#" class="text-white">Works</a></li>
-            <li><a href="#" class="text-white">About</a></li>
+            <li><a href="http://localhost:3000/AboutUs" class="text-white">About</a></li>
             <li><a href="#" class="text-white">Contact Us</a></li>
           </ul>
         </b-col>
