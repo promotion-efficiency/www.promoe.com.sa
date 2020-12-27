@@ -30,7 +30,12 @@
 </template>
 
 <script>
+// import { carousel, slide } from 'vue-carousel';
 export default {  
+  //   components: {
+  //   carousel,
+  //   slide
+  // },
   data() {
     return {
       publicPath: process.env.baseUrl,

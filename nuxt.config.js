@@ -21,10 +21,13 @@ export default {
   },
 
   css: [
-    '@/assets/css/main.scss'
+    '@/assets/css/main.scss',
+    'bootstrap-vue/dist/bootstrap-vue.css'
   ],
 
   plugins: [
+    '~plugins/bootstrap-vue',
+    // '~plugins/carousel',
   ],
 
   components: true,
@@ -36,9 +39,10 @@ export default {
   },
   modules: [
     '@nuxtjs/axios',
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
   ],
 
   build: {
+    // transpile: ['Carousel']
   }
 }

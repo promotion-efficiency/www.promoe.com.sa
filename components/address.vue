@@ -22,7 +22,8 @@
       </b-col>
 
       <b-col cols="12" lg="7" class="px-0">
-        <GoogleMap />
+        <!-- <GoogleMap /> -->
+     <iframe src="https://snazzymaps.com/embed/281438" width="100%" height="600px" style="border:none;"></iframe>
       </b-col>
     </b-row>
   </section>
@@ -38,7 +39,7 @@ export default {
     };
   },
   components: {
-    GoogleMap
+    // GoogleMap
   },
 };
 </script>

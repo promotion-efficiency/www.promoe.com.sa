@@ -2,18 +2,19 @@
 section#instagram {
   .container{
     .row{
-      min-height:50vh;
+      min-height:80vh;
     }
   }
   
   .mobile {
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 60%;
   }
   .text {
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }

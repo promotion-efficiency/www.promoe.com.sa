@@ -1,0 +1,52 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.about p {
+  padding-top: 10px;
+  line-height: 29px;
+  font-size: 18px;
+  width: 94%;
+}
+
+.about hr {
+  text-align: left;
+  margin-left: 0;
+  width: 12%;
+  border-bottom: 5px solid #B8D432;
+  border-top: 1px solid #B8D432;
+}
+
+.values {
+  margin-top: 70px;
+}
+
+.values hr {
+  text-align: left;
+  margin-left: 0;
+  width: 12%;
+  border-bottom: 5px solid #B8D432;
+  border-top: 1px solid #B8D432;
+}
+
+.values .boxescontainer {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.values .box {
+  background-color: #f9f9f9;
+  padding: 25px;
+  margin-right: 35px;
+  width: 30%;
+  height: 350px;
+}
+/*# sourceMappingURL=Aboutuspage.css.map */
