@@ -12,7 +12,7 @@ section#hero header {
 }
 
 section#hero header nav {
-  background-color: #464838;
+  background-color: #374955;
   -webkit-transition: all 500ms;
   transition: all 500ms;
 }
@@ -68,7 +68,7 @@ section#hero header.sticky {
 
 section#hero header.sticky nav {
   border-radius: revert !important;
-  background-color: white;
+  background-color: #e5e5e5;
 }
 
 section#hero header.sticky nav .navbar-brand img {

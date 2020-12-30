@@ -59,14 +59,14 @@
     </b-container>
   </section>
       <div class="workinghours">
-          <h5>Keep In Touch</h5>
+          <h5><strong>Keep In Touch</strong></h5>
           <p>Khobar - Kornich Park, Prince</p>
           <p>Mutib Road, Office 333, Floor 3</p>
           <p>0581115550</p>
           <p>0581115550</p>
 
           <div>
-              <h5>Working Hours</h5>
+              <h5><strong>Working Hours</strong></h5>
               <p>Saturday - thursday</p>
               <p>8am - 5pm</p>
           </div>

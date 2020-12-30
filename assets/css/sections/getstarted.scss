@@ -1,3 +1,6 @@
+@import '../_general.scss';
+
+
 section#getstarted {
   min-height: 90vh;
     background-position: center bottom;
@@ -6,7 +9,8 @@ section#getstarted {
     
 
     .btn.btn-success {
-      background-color: #B8D432;
+      background-color: $newPrimaryColor;
+      color: white !important;
     }
 
     .btn.btn-danger {

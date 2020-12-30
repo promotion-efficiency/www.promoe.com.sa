@@ -1,4 +1,4 @@
-$primaryColor: #B8D432;
+@import '../_general.scss';
 
 .container {
     width: 70%;
@@ -17,8 +17,8 @@ $primaryColor: #B8D432;
         text-align: left;
         margin-left: 0;
         width: 12%;
-        border-bottom: 5px solid $primaryColor;
-        border-top: 1px solid $primaryColor;
+        border-bottom: 5px solid $newPrimaryColor;
+        border-top: 1px solid $newPrimaryColor;
     }
 }
 
@@ -29,8 +29,8 @@ $primaryColor: #B8D432;
         text-align: left;
         margin-left: 0;
         width: 12%;
-        border-bottom: 5px solid $primaryColor;
-        border-top: 1px solid $primaryColor;
+        border-bottom: 5px solid $newPrimaryColor;
+        border-top: 1px solid $newPrimaryColor;
     }
     .boxescontainer {
         padding-top: 50px;

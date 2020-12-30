@@ -1,3 +1,5 @@
+@import './_general.scss';
+
 .mt-6,
 .my-6 {
   margin-top: 5rem !important;
@@ -32,7 +34,7 @@
  
   &.btn-primary {
     margin-top: 2rem;
-    background-color: #B8D432;
+    background-color: $newPrimaryColor;
     color: white;
     
     &.inverted {

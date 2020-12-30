@@ -1,3 +1,5 @@
+@import '../_general.scss';
+
 section#services {
   font-size: 100%;
   color:white;
@@ -56,7 +58,7 @@ section#services {
     
           &::after {
             content: " ";
-            background-color: #B8D432;
+            background-color: $newPrimaryColor;
             display: block;
             position: absolute;
             bottom: -1rem;
@@ -86,11 +88,12 @@ section#services {
       transform: scale(1.1);
       z-index:5;
 
+ 
       &::after{
-        background: rgb(197,255,55);
-        background: -moz-linear-gradient(0deg, rgba(69,96,4,0.8) 35%, rgba(111,153,7,0.5) 80%);
-        background: -webkit-linear-gradient(0deg, rgba(69,96,4,0.8) 35%, rgba(111,153,7,0.5) 80%);
-        background: linear-gradient(0deg, rgba(69,96,4,0.8) 35%, rgba(111,153,7,0.5) 80%);
+        background: $newPrimaryColor;
+        background: -moz-linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);
+        background: -webkit-linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);
+        background: linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5ff37",endColorstr="#c5ff37",GradientType=1);
       }
     }

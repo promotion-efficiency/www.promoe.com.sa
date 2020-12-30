@@ -28,6 +28,7 @@ export default {
   plugins: [
     '~plugins/bootstrap-vue',
     // '~plugins/carousel',
+    { src: '~plugins/carousel', mode: 'client' },
   ],
 
   components: true,
@@ -43,6 +44,6 @@ export default {
   ],
 
   build: {
-    // transpile: ['Carousel']
+    transpile: ['Carousel']
   }
 }

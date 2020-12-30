@@ -1,3 +1,4 @@
+$newPrimaryColor: #083d53;
 
 html,
 body {
@@ -27,7 +28,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  color: #b8d432;
+  color: $newPrimaryColor;
 }
 
 h5 {

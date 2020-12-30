@@ -9,7 +9,7 @@ section#hero {
     transition: all 500ms;
     
     nav {
-      background-color: #464838;
+      background-color: #374955;
       transition: all 500ms;
       
       .b-sidebar-header{
@@ -53,7 +53,7 @@ section#hero {
       padding:0 !important;
       nav {
         border-radius: revert !important;
-        background-color: white;
+        background-color: #e5e5e5;
         .navbar-brand img {
           content: url('/assets/imgs/logo/pe_logo_primary.svg')
         }

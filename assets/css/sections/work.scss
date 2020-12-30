@@ -1,3 +1,5 @@
+@import '../_general.scss';
+
 section#work {
     background-color: #DFE4E8;
     padding-bottom:120px!important; }
@@ -13,7 +15,7 @@ section#work {
     
     .member-bg:hover .bio {
       opacity: 0.50;
-      border-bottom: 18px solid #B8D432;
+      border-bottom: 18px solid $newPrimaryColor;
     }
 
     .bio {
