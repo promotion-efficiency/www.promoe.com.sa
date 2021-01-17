@@ -13,7 +13,7 @@
           <b-col v-for="about in this.$store.state.jsonData.sections.aboutus.content" v-bind:key="about.number" cols="12" lg="6" class="px-2 px-lg-5">
             <div class="icon">
               <span class="text-muted pr-3 d-none d-md-inline">{{ about.number }}</span>
-              <b-img :src="publicPath + about.icon" fluid height="54" alt="Responsive image"></b-img>
+              <b-img :src="about.icon" fluid height="54" alt="Responsive image"></b-img>
             </div>
             <h4 class="text-muted my-4"><strong>{{ about.title }}</strong></h4>
             <div class="p-0 pl-lg-5">{{ about.text }}</div>

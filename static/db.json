@@ -30,7 +30,7 @@
             "content":[
                 {
                     "number":"01",
-                    "icon":"/assets/imgs/icons/review.svg",
+                    "icon":"assets/imgs/icons/review.svg",
                     "title":"TRUST",
                     "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible digital experiences that have stepped out of conventional standards and paid off in very considerable ways - every time."
                 },
