@@ -1,7 +1,7 @@
 <template>
 <div>
   <header class="head-image"></header>
-  <div class="container">   
+  <div class="container">
         <div class="wrapper">
             <form action="https://formsubmit.co/contact@promoe.com.sa" method="POST">
                 <div class="form-group">
