@@ -13,7 +13,7 @@
     <b-container>
       <b-row class="text-center">
         <b-col cols="12">
-          <carousel  :perPage="1" :loop="true" :paginationEnabled="false" :perPageCustom="[[600, 2], [900, 3], [1199, 4]]">
+          <carousel :perPage="1" :loop="true" :paginationEnabled="false" :perPageCustom="[[600, 2], [900, 3], [1199, 4]]">
             <slide class="p-1">
               <div class="py-3" style="background-image: url(/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
                   <h4 class="mb-4">Photography</h4>

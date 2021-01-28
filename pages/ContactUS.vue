@@ -86,6 +86,3 @@ export default {
   components: {},
 }
 </script>
-
-<style src="@/assets/css/pages/contactus.css">
-</style>

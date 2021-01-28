@@ -12,14 +12,6 @@
 </template>
 
 <script>
-import RequestFormhtml from '../components/RequestFormhtml'
 export default {
-    components: {
-      RequestFormhtml 
-    }
 }
 </script>
-
-<style src="@/assets/css/pages/RequestServices.css">
-
-</style>

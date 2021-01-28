@@ -89,6 +89,3 @@ export default {
   components: {},
 };
 </script>
-
-<style src="@/assets/css/pages/Aboutuspage.css">
-</style>

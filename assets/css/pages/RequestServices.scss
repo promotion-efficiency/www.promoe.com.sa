@@ -1,12 +1,5 @@
 
-section#hero {
-
-    padding: 0 !important;
-    
-    header {
-         position: fixed !important; right:0; left:0
-    }
-    
+section#hero {    
     header .wrap {
         height: 88px;
         z-index: 7;
@@ -14,5 +7,5 @@ section#hero {
         left: 0;
         margin-top: 15px; 
         position: absolute;
-        }
     }
+}

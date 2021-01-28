@@ -19,9 +19,7 @@
     "nuxt-sass-resources-loader": "^2.0.5",
     "vue-axios": "^3.2.0",
     "vue-carousel": "^0.18.0",
-    "vue-concise-slider": "^3.4.4",
     "vue-countup-v2": "^4.0.0",
-    "vue-slick-carousel": "^1.0.6",
     "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {

@@ -21,8 +21,8 @@ export default {
   },
 
   css: [
-    '@/assets/css/main.scss',
-    'bootstrap-vue/dist/bootstrap-vue.css'
+    'bootstrap-vue/dist/bootstrap-vue.css',
+    '@/assets/css/main.scss'
   ],
 
   plugins: [

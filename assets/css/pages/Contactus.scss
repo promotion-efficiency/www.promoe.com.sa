@@ -1,8 +1,7 @@
-@import '../_general.scss';
-
 section#contact form .form-control {
     border-bottom: 1px solid black;
 }
+
 h2.mb-5.pt-3 {
     color: black;
 }
@@ -20,17 +19,17 @@ h2.mb-5.pt-3 {
         padding: 25px 0px;
 
         h5 {
-            color: $newPrimaryColor ;
+            color: #083d53 ;
         }
     }
 
     h5 {
-        color: $newPrimaryColor;
+        color: #083d53;
     }
 }
 
 h5 {
-    color: $newPrimaryColor !important;
+    color: #083d53 !important;
     margin-bottom: 15px;
 }
 

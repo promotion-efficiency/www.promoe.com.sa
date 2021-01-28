@@ -12,7 +12,7 @@
 
     <b-row class="pt-1 pt-lg-5" no-gutters>
       <b-col v-for="(item, index) in this.$store.state.jsonData.sections.work.content" v-bind:key="item.title" cols="12" lg="3" :class="{ 'd-none d-lg-block': index+1 > 3 }" class="px-0">
-        <div class="member-bg" :style="{ backgroundImage: 'url(' + publicPath + item.picture }">
+        <div class="member-bg" :style="{ backgroundImage: 'url(' + publicPath + item.picture + ')'}">
           <div class="bio p-4">
             <div>
               <h6>{{ item.project_name }}</h6>

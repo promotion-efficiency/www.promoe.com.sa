@@ -1,16 +1,12 @@
-@import '../_general.scss';
-
 section#services {
   font-size: 100%;
   color:white;
 
-  .container {
-    max-width: 1630px !important;
-  }
+
 
   .card {
-    height: 350px;
-    width: 230px;
+    height: 100%;
+    width: 100%;
     text-align: center;
     background-color: #F0F4CD;
     background-position: center;
@@ -64,7 +60,7 @@ section#services {
     
           &::after {
             content: " ";
-            background-color: $newPrimaryColor;
+            background-color: #083d53;
             display: block;
             position: absolute;
             bottom: -1rem;
@@ -96,7 +92,7 @@ section#services {
 
  
       &::after{
-        background: $newPrimaryColor;
+        background: #083d53;
         background: -moz-linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);
         background: -webkit-linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);
         background: linear-gradient(0deg, rgba(8,61,83,0.5) 35%, rgba(8,61,83,0.5) 80%);

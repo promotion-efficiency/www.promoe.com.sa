@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAEI,OAFG,AAAA,UAAU,CACf,UAAU,CACR,IAAI,CAAA;EACF,UAAU,EAAC,IAAI;CAChB;;AAJL,AAOE,OAPK,AAAA,UAAU,CAOf,OAAO,CAAC;EACN,mBAAmB,EAAE,aAAa;EAClC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,GAAG;CACrB;;AAXH,AAYE,OAZK,AAAA,UAAU,CAYf,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB",
-    "sources": [
-        "instagram.scss"
-    ],
-    "names": [],
-    "file": "instagram.css"
-}
