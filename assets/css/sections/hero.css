@@ -32,6 +32,7 @@ section#hero header nav .b-sidebar-body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  background: #083d53;
 }
 
 section#hero header nav .b-sidebar-body .overlay-content {
@@ -46,7 +47,7 @@ section#hero header nav .b-sidebar-body .overlay-content a {
   padding: 8px;
   text-decoration: none;
   font-size: 2rem;
-  color: #45b5aa;
+  color: #b5b5b5;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -55,7 +56,7 @@ section#hero header nav .b-sidebar-body .overlay-content a {
 
 section#hero header nav .b-sidebar-body .overlay-content a:hover,
 section#hero header nav .b-sidebar-body .overlay-content a:focus {
-  color: #7ee1d6;
+  color: white;
 }
 
 section#hero header.sticky {
@@ -130,6 +131,6 @@ section#hero .layer_5 {
 }
 
 .animate__animated.animate__shakeX {
-  --animate-duration: 15s;
+  --animate-duration: 20s;
 }
 /*# sourceMappingURL=hero.css.map */

@@ -3,7 +3,7 @@
     <section id="hero" class="p-2 py-lg-3 bg-white overflow-hidden h-100">
     <Navbar />
     </section>
-<div class="container" style="padding: 100px 0px;">
+<div class="container wrap">
         <div class="about">
             <h1>About Us:</h1>
             <hr>
@@ -44,7 +44,6 @@
                     <p>
                         We team up and partner with our clients on 
                         their journey to the peaks of success.
-
                     </p>
                 </div>
             </div>
@@ -84,8 +83,6 @@
 </template>
 
 <script>
-import Navbar from '@/components/_Navbar.vue';
-import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
@@ -93,5 +90,5 @@ export default {
 };
 </script>
 
-<style scoped src="@/assets/css/pages/Aboutuspage.css">
+<style src="@/assets/css/pages/Aboutuspage.css">
 </style>

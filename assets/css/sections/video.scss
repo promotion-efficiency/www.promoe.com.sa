@@ -2,4 +2,14 @@ section#video {
   background-color: #DFE4E8;
   min-height: 50vh;
   position:relative;
+
+  #youtube-btn {
+    cursor: pointer;
+    background: #083d53;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px 30px;
+    border: none;
+  }
 }

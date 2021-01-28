@@ -13,13 +13,67 @@
     <b-container>
       <b-row class="text-center">
         <b-col cols="12">
-          <carousel :loop="true" :paginationEnabled="false"  :perPage="1" :perPageCustom="[[600, 2], [900, 3], [1199, 4]]">
-            <slide class="p-1" v-for="service in this.$store.state.jsonData.sections.services.content" v-bind:key="service.title">
-              <b-card class="py-3" :style="{ backgroundImage: 'url(' + publicPath + service.background }">
-                <b-card-text>
-                  <h4 class="mb-4" v-text="service.title"></h4>
-                  <p v-text="service.breif"></p>
-                </b-card-text>
+          <carousel  :perPage="1" :loop="true" :paginationEnabled="false" :perPageCustom="[[600, 2], [900, 3], [1199, 4]]">
+            <slide class="p-1">
+              <div class="py-3" style="background-image: url(/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                  <h4 class="mb-4">Photography</h4>
+                  <p>Creative photography services to document every worth capturing moment.</p>
+              </div>
+            </slide>
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Photography</h4>
+                  <p>Creative photography services to document every worth capturing moment.</p>
+                </div>
+              </b-card>
+            </slide>    
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Videography</h4>
+                  <p>Professional videography services to achieve your business goals and ambitions.</p>
+                </div>
+              </b-card>
+            </slide>            
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Designing</h4>
+                  <p>Out of the box graphic designs to visualize your ideas, goals and messages</p>
+                </div>
+              </b-card>
+            </slide>
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Copywriting</h4>
+                  <p>Professional copywriting to state your objectives and communicate your message.</p>
+                </div>
+              </b-card>
+            </slide>
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Social Media Accounts Management</h4>
+                  <p>Social media accounts management and content creation to take your pages to a new level of creativity.</p>
+                </div>
+              </b-card>
+            </slide>
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Marketing</h4>
+                  <p>Marketing strategies and solutions based on your business objectives, competitors, and targeted audience’s needs and interests.</p>
+                </div>
+              </b-card>
+            </slide>
+            <slide class="p-1">
+              <b-card class="py-3" style="background-image:url('/assets/imgs/services/pexels-cottonbro-5095887.jpg')">
+                <div>
+                  <h4 class="mb-4">Advertising</h4>
+                  <p>Unconventional advertising services to help you deliver your ad. to the targeted audience and achieve your business goals.</p>
+                </div>
               </b-card>
             </slide>
           </carousel>
@@ -30,12 +84,7 @@
 </template>
 
 <script>
-// import { carousel, slide } from 'vue-carousel';
 export default {  
-  //   components: {
-  //   carousel,
-  //   slide
-  // },
   data() {
     return {
       publicPath: process.env.baseUrl,

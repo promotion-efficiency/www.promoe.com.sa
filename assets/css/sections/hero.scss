@@ -20,6 +20,7 @@ section#hero {
         align-items: center;
         justify-content: center;
         position: relative;
+        background: #083d53;
 
 
         .overlay-content {
@@ -30,7 +31,7 @@ section#hero {
             padding: 8px;
             text-decoration: none;
             font-size: 2rem;
-            color: #45b5aa;
+            color: #b5b5b5;
             display: block;
             transition: 0.3s;
             font-weight: 700;
@@ -38,7 +39,7 @@ section#hero {
   
           a:hover,
           a:focus {
-            color: #7ee1d6;
+            color: white;
           }
         }
       }
@@ -109,7 +110,7 @@ section#hero {
   }
   
   .animate__animated.animate__shakeX {
-    --animate-duration: 15s;
+    --animate-duration: 20s;
   }
   
   

@@ -1,5 +1,5 @@
 <template>
-<div>
+<section id="RequestFormhtml">
   <header class="head-image"></header>
   <div class="container">   
         <div class="wrapper">
@@ -334,7 +334,7 @@
               </form>
         </div>
     </div>
-</div>
+</section>
 </template>
 
 <script>
@@ -344,15 +344,6 @@ export default {
 }
 </script>
 
-<style scoped>
-.head-image {
-    background-position: center;
-    height: 501px;
-    background-size: cover;
-    background-image: url('../static/assets/imgs/promoWallPaper.png');
-}
-.container {
-    padding: 90px 0px;
-}
+<style src="@/assets/css/forms/RequestFormhtml.css">
 </style>
 

@@ -25,7 +25,7 @@
 
     <b-row class="mb-3 d-block d-lg-none py-5 text-center" no-gutters>
       <b-col>
-        <a role="button" class="btn btn-primary py-3 px-4 border-0 text-dark font-weight-normal" href="#">SEE MORE</a>
+        <a role="button" class="btn btn-primary py-3 px-4 border-0 text-dark font-weight-normal" style="color:white !important;" href="#">SEE MORE</a>
       </b-col>
     </b-row>
 
@@ -47,12 +47,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-  /* svg#special {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-  } */
-</style>

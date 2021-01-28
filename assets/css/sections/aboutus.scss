@@ -21,6 +21,26 @@ section#whyus {
     }
   }
 
+  .about-us-btn {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+
+    a {
+      color: white
+    }
+
+    button {
+      cursor: pointer;
+      background: #083d53;
+      color: white;
+      font-size: 30px;
+      border-radius: 5px;
+      padding: 5px 54px;
+      border: none;
+    }
+  }
+
   .line{
     position: absolute;
     height:100%;

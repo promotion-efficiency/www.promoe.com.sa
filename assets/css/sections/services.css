@@ -153,4 +153,10 @@ section#services .card:hover::after {
 section#services .VueCarousel-wrapper {
   overflow: unset;
 }
+
+section#services carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=services.css.map */

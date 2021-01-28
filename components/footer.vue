@@ -12,22 +12,22 @@
           <h6>NAVIGATE</h6>
           <ul class="list-unstyled">
             <li><a href="#" class="text-white">Home</a></li>
-            <li><a href="#" class="text-white">Services</a></li>
-            <li><a href="#" class="text-white">Works</a></li>
-            <li><a href="http://localhost:3000/AboutUs" class="text-white">About</a></li>
-            <li><a href="#" class="text-white">Contact Us</a></li>
+            <li><a href="#services" class="text-white">Services</a></li>
+            <li><a href="#work" class="text-white">Works</a></li>
+            <li><a href="AboutUs" class="text-white">About</a></li>
+            <li><a href="ContactUS" class="text-white">Contact Us</a></li>
           </ul>
         </b-col>
         <b-col cols="12" md="4" class="text-md-left mb-md-0 mb-2">
           <h6>OTHER LINKS</h6>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Home</a></li>
-            <li><a href="#" class="text-white">Services</a></li>
+            <li><a href="/" class="text-white">Home</a></li>
+            <li><a href="#services" class="text-white">Services</a></li>
             <li><a href="#" class="text-white">Works</a></li>
-            <li><a href="#" class="text-white">About</a></li>
-            <li><a href="#" class="text-white">Contact Us</a></li>
-            <li><a href="#" class="text-white">Contact Us</a></li>
-            <li><a href="#" class="text-white">Contact Us</a></li>
+            <li><a href="AboutUs" class="text-white">About</a></li>
+            <li><a href="ContactUS" class="text-white">Contact Us</a></li>
+            <li><a href="RequestServices" class="text-white">Service Request</a></li>
+            <li><a href="/jobs" class="text-white">Jobs Application</a></li>
           </ul>
         </b-col>
         <b-col cols="12" md="5" class="d-none text-md-left mb-md-0 mb-2">

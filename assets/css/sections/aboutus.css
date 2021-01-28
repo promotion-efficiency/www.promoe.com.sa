@@ -74,6 +74,26 @@ section#whyus .row > div.line {
   padding: 0;
 }
 
+section#whyus .about-us-btn {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+section#whyus .about-us-btn a {
+  color: white;
+}
+
+section#whyus .about-us-btn button {
+  cursor: pointer;
+  background: #083d53;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 5px 54px;
+  border: none;
+}
+
 section#whyus .line {
   position: absolute;
   height: 100%;

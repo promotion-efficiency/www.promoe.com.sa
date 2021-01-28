@@ -14,8 +14,8 @@
           <address>
             <strong>{{ this.$store.state.jsonData.sections.address.content.city }}</strong><br />
             <span>{{ this.$store.state.jsonData.sections.address.content.address }}</span><br />
-            <a :href="'tel:' + this.$store.state.jsonData.sections.address.content.phone.link">{{ this.$store.state.jsonData.sections.address.content.phone.number }}</a>
-
+            <a :href="'tel:' + this.$store.state.jsonData.sections.address.content.phone.link">{{ this.$store.state.jsonData.sections.address.content.phone.number }}</a><br />
+            <a :href="'tel:' + this.$store.state.jsonData.sections.address.content.phone.link2">{{ this.$store.state.jsonData.sections.address.content.phone.number2 }}</a><br />
           </address>
         </header>
         

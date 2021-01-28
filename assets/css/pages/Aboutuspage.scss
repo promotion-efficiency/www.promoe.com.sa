@@ -3,7 +3,10 @@
 .container {
     width: 70%;
     margin: auto;
-    // padding: 100px 0px;
+}
+
+.wrap {
+    padding: 80px 0px;
 }
 
 .about {
@@ -36,8 +39,6 @@
         padding-top: 50px;
         display: flex;
         flex-wrap: wrap;
-        // flex-grow: 1;
-        // justify-content: center;
         flex: 1;
     }
     .box {

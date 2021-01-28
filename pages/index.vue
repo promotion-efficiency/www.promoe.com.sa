@@ -4,7 +4,6 @@
     <AboutUs />
     <Video />
     <Services />
-    <!-- <Servicee /> -->
     <!-- <Insight /> -->
     <Work />
     <Clients />
@@ -30,7 +29,3 @@ export default {
    
 }
 </script>
-
-<style>
-
-</style>

@@ -3,4 +3,14 @@ section#video {
   min-height: 50vh;
   position: relative;
 }
+
+section#video #youtube-btn {
+  cursor: pointer;
+  background: #083d53;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 5px 30px;
+  border: none;
+}
 /*# sourceMappingURL=video.css.map */

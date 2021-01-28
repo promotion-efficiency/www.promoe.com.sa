@@ -9,13 +9,10 @@
             <b-sidebar id="sidebar-variant" title="" backdrop width="100%" bg-variant="dark" text-variant="light" shadow >
               <div class="overlay-content">
                 <router-link to="/">Home</router-link>
-                <b-link :href="publicPath + 'AboutUs'">- About Us</b-link>
-                <b-link :href="publicPath + '#whyus'">- Why Us</b-link>
-                <b-link :href="publicPath + '#services'">- Services</b-link>
-                <b-link :href="publicPath + '#work'">- Portfolio</b-link>
-                <b-link :href="publicPath + '#contact'">- Contact Us</b-link>
-                <b-link :href="publicPath + 'Reques_services'">- Service Request</b-link>
-
+                <b-link :href="publicPath + '#whyus'">Why Us</b-link>
+                <b-link :href="publicPath + '#services'">Services</b-link>
+                <b-link :href="publicPath + '#work'">Portfolio</b-link>
+                <b-link :href="publicPath + 'ContactUS'">Contact Us</b-link>
                 <hr />
                 <router-link to="/jobs">Jobs Application</router-link>
               </div>

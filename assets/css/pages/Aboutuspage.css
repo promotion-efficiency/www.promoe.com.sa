@@ -56,6 +56,10 @@ main {
   margin: auto;
 }
 
+.wrap {
+  padding: 80px 0px;
+}
+
 .about p {
   padding-top: 10px;
   line-height: 29px;

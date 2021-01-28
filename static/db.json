@@ -31,26 +31,26 @@
                 {
                     "number":"01",
                     "icon":"assets/imgs/icons/review.svg",
-                    "title":"TRUST",
-                    "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible digital experiences that have stepped out of conventional standards and paid off in very considerable ways - every time."
+                    "title":"Quality",
+                    "text":"We believe that quality is not an act but a habit."
                 },
                 {
                     "number":"02",
-                    "icon":"/assets/imgs/icons/review.svg",
-                    "title":"INTEGRITY",
-                    "text":"Distribution is a family owned transportation and distribution company located in Houston, Texas."
+                    "icon":"assets/imgs/icons/review.svg",
+                    "title":"Creativity",
+                    "text":"To us, creativity is seeing and communicating ideas in ways that are unique, compelling, and unexpected."
                 },
                 {
                     "number":"03",
-                    "icon":"/assets/imgs/icons/search.svg",
-                    "title":"EFFICIENCY",
-                    "text":"LSI Distribution is a family owned transportation and distribution company located in Houston, Texas. We provide our customers with supply chain solutions."
+                    "icon":"assets/imgs/icons/search.svg",
+                    "title":"Adaptability",
+                    "text":"\"Sail in all conditions\" is one of the mottos we live and work by."
                 },
                 {
                     "number":"04",
-                    "icon":"/assets/imgs/icons/watch.svg",
-                    "title":"CREATIVITY",
-                    "text":"Creativity is the driving force of our company. Creativity in technology and design has allowed us to produce incredible"
+                    "icon":"assets/imgs/icons/watch.svg",
+                    "title":"Determination",
+                    "text":"Our journey started with a believe that hard work and determination are the way to go."
                 }
             ]
         },
@@ -136,7 +136,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/1.png",
+                    "picture":"assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -144,7 +144,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/2.png",
+                    "picture":"assets/imgs/work/2.png",
                     "link":""
 
                 },
@@ -152,7 +152,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/3.png",
+                    "picture":"assets/imgs/work/3.png",
                     "link":""
 
                 },
@@ -160,7 +160,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/1.png",
+                    "picture":"assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -168,7 +168,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/2.png",
+                    "picture":"assets/imgs/work/2.png",
                     "link":""
 
                 },
@@ -176,7 +176,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/3.png",
+                    "picture":"assets/imgs/work/3.png",
                     "link":""
 
                 },
@@ -184,7 +184,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/1.png",
+                    "picture":"assets/imgs/work/1.png",
                     "link":""
 
                 },
@@ -192,7 +192,7 @@
                     "project_name":"Project Name",
                     "client_name":"Client Name",
                     "breif":"",
-                    "picture":"/assets/imgs/work/2.png",
+                    "picture":"assets/imgs/work/2.png",
                     "link":""
 
                 }
@@ -204,23 +204,23 @@
             "content":[
                 {
                     "client_name":"65 Degrees",
-                    "logo":"/assets/imgs/clientlogos/65.svg"
+                    "logo":"assets/imgs/clientlogos/65.svg"
                 },
                 {
                     "client_name":"AQUAFINA",
-                    "logo":"/assets/imgs/clientlogos/aquafina.svg"
+                    "logo":"assets/imgs/clientlogos/aquafina.svg"
                 },
                 {
                     "client_name":"Carlton alMoaibed Hotel",
-                    "logo":"/assets/imgs/clientlogos/carlton.svg"
+                    "logo":"assets/imgs/clientlogos/carlton.svg"
                 },
                 {
                     "client_name":"Civil Defense Directorate",
-                    "logo":"/assets/imgs/clientlogos/civil.svg"
+                    "logo":"assets/imgs/clientlogos/civil.svg"
                 },
                 {
                     "client_name":"Danderah",
-                    "logo":"/assets/imgs/clientlogos/danderah.svg"
+                    "logo":"assets/imgs/clientlogos/danderah.svg"
                 },
                 {
                     "client_name":"KFUPM",
@@ -293,14 +293,16 @@
             "subtitle":"OUR ADDRESS",
             "content":{
                 "city":"KHOBAR",
-                "address":"Office 333, Floor 3, Kornich Park, Prince Mutib Road, North Khobar, 31311",
+                "address":"Office 10, Floor 2, Kornich Park, Prince Mutib Road, North Khobar, building number 6919, Postal code 34413",
                 "location": {
                     "lat":26.305914,
                     "lng":50.223589
                 },
                 "phone":{
-                    "number":"+966-555-555-555",
-                    "link":"+966555555555"
+                    "number":"+966581115550",
+                    "number2":"+966920035115",
+                    "link":"+966581115550",
+                    "link2":"+966920035115"
                 }
             }
         }

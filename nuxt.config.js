@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'requestform',
+    title: 'Promotion Efficiency | Your Hike to PEAK!',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,7 +36,7 @@ export default {
   buildModules: [
   ],
   env: {
-    baseUrl: process.env.BASE_URL || 'https://dev.promoe.com.sa'
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000/'
   },
   modules: [
     '@nuxtjs/axios',
@@ -44,6 +44,9 @@ export default {
   ],
 
   build: {
+    babel: {
+      compact: true
+    },
     transpile: ['Carousel']
   }
 }

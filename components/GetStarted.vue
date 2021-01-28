@@ -5,7 +5,7 @@
     class="py-5 text-center separatorArrow bg-white overflow-hidden"
     :style="{
       backgroundImage:
-        'url(' + publicPath + '/assets/imgs/getstarted/getstarted.png)',
+        'url(' + publicPath + 'assets/imgs/getstarted/getstarted.png)',
     }"
   >
     <header>
