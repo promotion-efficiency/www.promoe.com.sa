@@ -28,13 +28,14 @@ export default {
   plugins: [
     '~plugins/bootstrap-vue',
     // '~plugins/carousel',
-    { src: '~plugins/carousel', mode: 'client' },
+    { src: '~plugins/carousel', mode: 'client', ssr: false  },
   ],
 
   components: true,
 
   buildModules: [
   ],
+  
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000/'
   },
@@ -47,6 +48,5 @@ export default {
     babel: {
       compact: true
     },
-    transpile: ['Carousel']
   }
 }

@@ -3,7 +3,7 @@
     <section id="hero" class="p-2 py-lg-3 bg-white overflow-hidden h-100">
     <Navbar />
     </section>
-<div class="container wrap">
+    <b-container class="py-5 mt-5">
         <div class="about">
             <h1>About Us:</h1>
             <hr>
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </b-container>
   </div>
 </template>
 

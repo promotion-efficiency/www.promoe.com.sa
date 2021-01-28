@@ -13,7 +13,7 @@
         :src="publicPath + '/assets/imgs/logo/greendivider.png'"
         alt=""
         height="90"
-        class="pt-3 d-none d-lg-inine"
+        class="pt-3 d-none d-lg-inline"
       ></b-img>
       <h2 class="insight2 text-dark mb-5 pb-2 pt-3">
         <small class="text-muted mt-5"><span v-html="this.$store.state.jsonData.sections.getstarted.title"></span></small><br />
