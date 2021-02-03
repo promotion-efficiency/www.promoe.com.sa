@@ -7,11 +7,13 @@
         <header class="py-2 pt-2 py-lg-3 pt-lg-5">
           <b-img :src="publicPath + '/assets/imgs/logo/greendivider.png'" height="90" alt="" class="d-none d-lg-inline"></b-img>
 
-          <h2 class="mb-5 pt-3">
+          <h2 class="pt-3">
             <small class="text-muted"><strong>{{ this.$store.state.jsonData.sections.address.subtitle }}</strong></small><br />
             <span v-html="this.$store.state.jsonData.sections.address.title"></span>
           </h2>
-          <address>
+          <a id="trucker" href="https://traccar.promoe.com.sa" target="_bank">Click here to track advertising truck</a><br />
+
+          <address class="mt-5">
             <strong>{{ this.$store.state.jsonData.sections.address.content.city }}</strong><br />
             <span>{{ this.$store.state.jsonData.sections.address.content.address }}</span><br />
             <a :href="'tel:' + this.$store.state.jsonData.sections.address.content.phone.link">{{ this.$store.state.jsonData.sections.address.content.phone.number }}</a><br />

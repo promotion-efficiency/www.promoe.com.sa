@@ -132,6 +132,19 @@
 <script>
 export default {
   name: 'Home',
+    head() {
+      return {
+          title: 'Apply for a job at Promotion Efficiency',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'Apply for a job at Promotion Efficiency'
+              }
+
+          ]
+      }
+  },
   data() {
       return {
         form: {

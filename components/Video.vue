@@ -14,7 +14,7 @@
               <span style="color: #343a40 !important" v-html="this.$store.state.jsonData.sections.video.title"></span>
             </h2>
 
-            <a class="btn btn-success py-3 px-5 text-white border-0 font-weight-normal" href="https://www.youtube.com/channel/UCwx88crK6W9gZFxwcolU_dQ" target="_blank" style="color:white !important">View More On YOUTUBE</a>
+            <a class="btn btn-success py-3 px-5 text-white border-0 font-weight-normal" href="https://www.youtube.com/channel/UCwx88crK6W9gZFxwcolU_dQ" target="_blank">View More On YOUTUBE</a>
 
         </header>
       </b-col>

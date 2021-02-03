@@ -82,7 +82,20 @@
 <script>
 
 export default {
-    name: 'Home',
+  name: 'Home',
   components: {},
+  head() {
+      return {
+          title: 'Contact Promotion Efficiency team',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'Contact Promotion Efficiency team'
+              }
+
+          ]
+      }
+  }
 }
 </script>

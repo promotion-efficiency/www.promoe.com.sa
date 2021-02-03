@@ -87,5 +87,18 @@
 export default {
   name: 'Home',
   components: {},
+  head() {
+      return {
+          title: 'About Promotion Efficiency',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'About Promotion Efficiency'
+              }
+
+          ]
+      }
+  }
 };
 </script>

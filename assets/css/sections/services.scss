@@ -2,6 +2,10 @@ section#services {
   font-size: 100%;
   color:white;
 
+  .col-12 a {
+    background-color: #083d53;
+  }
+
 
   .card {
     height: 100%;
@@ -52,7 +56,7 @@ section#services {
           font-weight: 700;
           position: relative;
           margin: auto;
-    
+          visibility: visible;
           
         }
 

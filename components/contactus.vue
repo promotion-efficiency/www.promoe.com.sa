@@ -4,7 +4,7 @@
     
     <b-container class="mt-5">
       <header>
-        <h2 class="mb-5 pt-3">
+        <h2 class="mb-5 pt-3 home">
           Ready For Your<strong> FUTURE?</strong><br />
           <small class="">Contact <strong>Us</strong></small>
         </h2>

@@ -1,6 +1,47 @@
-@import '../_general.scss';
 
 footer {
+  
+
+  a i.fab {
+    font-size: 22px;
+    padding: 15px 10px;
+    color: white;
+}
+
+// .fab {
+//   padding: 20px;
+//   font-size: 30px;
+//   width: 30px;
+//   text-align: center;
+//   text-decoration: none;
+//   border-radius: 50%;
+// }
+
+  .mb-md-0.mb-2.col-md-12.col-12 p {
+    color: #808080;
+    font-size: 16px;
+  }
+
+  div#menu ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 0 8px;
+
+      a {
+        text-decoration: none;
+        font-size: 13px;
+      }
+    }
+  }
+
+  p.copyright.pt-0.text-center {
+    font-size: 15px;
+}
+
+
     background-color: #313131;
     font-size: 0.7rem;
     font-weight: 400;

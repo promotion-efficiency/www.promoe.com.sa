@@ -13,5 +13,18 @@
 
 <script>
 export default {
+    head() {
+      return {
+          title: 'Request a service',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'Request a service from Promotion Efficiency'
+              }
+
+          ]
+      }
+  },
 }
 </script>

@@ -3,50 +3,37 @@
   <footer class="pt-5 pb-3 text-white">
 
     <b-container class="text-center">
+
       <b-row>
-        <b-col cols="12" md="4" class="text-md-left mb-md-0 mb-2">
+
+        <b-col cols="12" md="12" class=" mb-md-0 mb-2">
           <b-img :src="publicPath + '/assets/imgs/logo/logo-footer.svg'" alt="logo" class="" ></b-img>
-          <h6 class="mt-4">Your Hike to <span>PEAK!</span></h6>
+          <h4 class="mt-3">Your Hike to <span>PEAK!</span></h4>
         </b-col>
-        <b-col cols="12" md="4" class="text-md-left mb-md-0 mb-2">
-          <h6>NAVIGATE</h6>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Home</a></li>
-            <li><a href="#services" class="text-white">Services</a></li>
-            <li><a href="#work" class="text-white">Works</a></li>
-            <li><a href="AboutUs" class="text-white">About</a></li>
-            <li><a href="ContactUS" class="text-white">Contact Us</a></li>
-          </ul>
+
+        <b-col cols="12" md="12" class=" mb-md-0 mb-2 icon">
+          <!-- <fa icon="instagram" /> -->
+          <a href="https://www.instagram.com/promoefficiency/https://www.instagram.com/promoefficiency/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/promoefficiency?s=11" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/promoefficiency/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="linic9sa.com" target="_blank"><i class="fab fa-youtube"></i></a>
         </b-col>
-        <b-col cols="12" md="4" class="text-md-left mb-md-0 mb-2">
-          <h6>OTHER LINKS</h6>
-          <ul class="list-unstyled">
-            <li><a href="/" class="text-white">Home</a></li>
-            <li><a href="#services" class="text-white">Services</a></li>
-            <li><a href="#" class="text-white">Works</a></li>
-            <li><a href="AboutUs" class="text-white">About</a></li>
-            <li><a href="ContactUS" class="text-white">Contact Us</a></li>
-            <li><a href="RequestServices" class="text-white">Service Request</a></li>
-            <li><a href="/jobs" class="text-white">Jobs Application</a></li>
-          </ul>
-        </b-col>
-        <b-col cols="12" md="5" class="d-none text-md-left mb-md-0 mb-2">
-          <h6>STAY CONNECTED</h6>
-          <p class="m-0">Join over 10.500 people who receive bi-weekly<br />web marketing tips.</p>
-          
+        <b-col cols="12" md="12" class="mt-3 mb-md-0 mb-2">
+          <div id="menu" style="">
+            <ul>
+              <li><a href="/" class="text-white">Home</a></li>
+              <li><a href="https://efficiencys.com.sa/" target="_bank" class="text-white">Efficiency Center</a></li>
+              <li><a href="/RequestServices" class="text-white">Request Service</a></li>
+              <li><a href="http://traccar.promoe.com.sa" target="_bank" class="text-white">Truck tracker</a></li>
+              <li><a href="/Jobs" class="text-white">Jobs Application</a></li>
+            </ul>
+          </div>
         </b-col>
       </b-row>
 
       <div>
-        <ul class="inline-list social mt-4 px-0 pt-3 pb-0 mb-0 text-center">
-          <li v-for="item in this.$store.state.jsonData.general.social_accounts" v-bind:key="item.title" class="list-inline-item mx-2">
-            <a :href="item.link" class="text-white">
-              <i :class="item.fav_icon"></i>
-            </a>
-          </li>
-        </ul>
         <p class="copyright pt-0 text-center">
-          <a class="text-light" :href="this.$store.state.jsonData.general.url">{{ this.$store.state.jsonData.general.site_name }}</a> All right reserved. copyright 2020
+          <a class="text-light" :href="this.$store.state.jsonData.general.url">{{ this.$store.state.jsonData.general.site_name }}</a> All right reserved. copyright 2021
         </p>
       </div>
     </b-container>
