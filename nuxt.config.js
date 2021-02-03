@@ -17,7 +17,6 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap'
       }
     ]
-    
   },
 
   css: [
@@ -37,7 +36,7 @@ export default {
   ],
   
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000/'
+    baseUrl: process.env.BASE_URL || 'https://dev.promoe.com.sa/'
   },
   modules: [
     '@nuxtjs/axios',
