@@ -86,12 +86,12 @@ export default {
   components: {},
   head() {
       return {
-          title: 'Contact Promotion Efficiency team',
+          title: 'Contact Us | Promotion Efficiency',
           meta: [
               {
                   hid: 'description',
                   name: 'description',
-                  content:'Contact Promotion Efficiency team'
+                  content:'Ready for your business future? Contact Promotion Efficiency team right now'
               }
 
           ]

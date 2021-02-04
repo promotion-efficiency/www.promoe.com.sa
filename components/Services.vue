@@ -27,7 +27,7 @@
             
           </carousel>
           </no-ssr>
-          <a class="btn py-3 px-5 mt-5 text-white border-0 font-weight-normal" href="/RequestServices">Request a service</a>
+          <a class="btn py-3 px-5 mt-5 text-white border-0 font-weight-normal" href="/Request">Request a Service</a>
         </b-col>
       </b-row>
     </b-container>

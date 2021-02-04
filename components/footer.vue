@@ -12,20 +12,20 @@
         </b-col>
 
         <b-col cols="12" md="12" class=" mb-md-0 mb-2 icon">
-          <!-- <fa icon="instagram" /> -->
-          <a href="https://www.instagram.com/promoefficiency/https://www.instagram.com/promoefficiency/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/promoefficiency?s=11" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/promoefficiency/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="linic9sa.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a :href="this.$store.state.jsonData.general.social_accounts[1].link" target="_blank"><i :class="this.$store.state.jsonData.general.social_accounts[1].fav_icon"></i></a>
+          <a :href="this.$store.state.jsonData.general.social_accounts[0].link" target="_blank"><i :class="this.$store.state.jsonData.general.social_accounts[0].fav_icon"></i></a>
+          <a :href="this.$store.state.jsonData.general.social_accounts[2].link" target="_blank"><i :class="this.$store.state.jsonData.general.social_accounts[2].fav_icon"></i></a>
+          <a :href="this.$store.state.jsonData.general.social_accounts[3].link" target="_blank"><i :class="this.$store.state.jsonData.general.social_accounts[3].fav_icon"></i></a>
         </b-col>
         <b-col cols="12" md="12" class="mt-3 mb-md-0 mb-2">
           <div id="menu" style="">
             <ul>
               <li><a href="/" class="text-white">Home</a></li>
               <li><a href="https://efficiencys.com.sa/" target="_bank" class="text-white">Efficiency Center</a></li>
-              <li><a href="/RequestServices" class="text-white">Request Service</a></li>
-              <li><a href="http://traccar.promoe.com.sa" target="_bank" class="text-white">Truck tracker</a></li>
-              <li><a href="/Jobs" class="text-white">Jobs Application</a></li>
+              <!--<li><a href="/Request" class="text-white">Request Service</a></li>-->
+              <li><a href="http://traccar.promoe.com.sa" target="_bank" class="text-white">Truck Tracker</a></li>
+              <!-- The form is not working -->
+              <!-- <li><a href="/Jobs" class="text-white">Jobs Application</a></li> -->
             </ul>
           </div>
         </b-col>

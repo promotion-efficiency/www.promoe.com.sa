@@ -1,11 +1,5 @@
 <template>
-    <gmap-map
-      :center="center"
-      :zoom="17"
-
-      :options="options"
-    >
-    </gmap-map>
+    <gmap-map :center="center" :zoom="17" :options="options"></gmap-map>
 </template>
 
 <script>

@@ -20,6 +20,11 @@
                 "title":"linkedin",
                 "link":"https://www.linkedin.com/company/promotion-efficiency",
                 "fav_icon":"fab fa-linkedin-in"
+            },
+            {
+                "title":"youtube",
+                "link":"https://www.youtube.com/channel/UCwx88crK6W9gZFxwcolU_dQ",
+                "fav_icon":"fab fa-youtube"
             }
         ]
     },

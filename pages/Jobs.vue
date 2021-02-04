@@ -79,21 +79,9 @@
             </b-form-group>
 
             <b-form-group id="input-group-4" label="Your Message:" label-size="lg" style="padding-bottom: 50px;">
-              <b-form-textarea
-                id="textarea"
-                v-model="form.message"
-                placeholder="Enter something..."
-                rows="3"
-                max-rows="6"
-                size="lg"
-              ></b-form-textarea> 
-
+              <b-form-textarea id="textarea" v-model="form.message" placeholder="Enter something..." rows="3" max-rows="6" size="lg"></b-form-textarea> 
             </b-form-group>
-
-
             <hr style="padding-bottom: 50px">
-
-            
             <b-form-group id="input-group-4" label="Availbility:" label-size="lg" >
               <b-form-radio-group id="radio-group-2" v-model="form.selected" name="radio-sub-component" size="lg">
                 <b-form-radio value="available">Available Immediately</b-form-radio>
@@ -131,15 +119,14 @@
 
 <script>
 export default {
-  name: 'Home',
     head() {
       return {
-          title: 'Apply for a job at Promotion Efficiency',
+          title: 'Apply for a Job | Promotion Efficiency',
           meta: [
               {
                   hid: 'description',
                   name: 'description',
-                  content:'Apply for a job at Promotion Efficiency'
+                  content:'Apply for a job at Promotion Efficiency, we crave for talents in the region in a multitude of fields'
               }
 
           ]

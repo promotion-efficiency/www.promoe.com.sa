@@ -24,7 +24,7 @@
       </b-col>
 
       <b-col cols="12" lg="7" class="px-0">
-        <!-- <GoogleMap /> -->
+        <!-- <GoogleMap /> Need to be componentalized later -->
      <iframe src="https://snazzymaps.com/embed/281438" width="100%" height="600px" style="border:none;"></iframe>
       </b-col>
     </b-row>
@@ -32,16 +32,12 @@
 </template>
 
 <script>
-import GoogleMap from '@/components/_gMaps.vue';
 
 export default {
   data() {
     return {
       publicPath: process.env.baseUrl,
     };
-  },
-  components: {
-    // GoogleMap
-  },
+  }
 };
 </script>

@@ -89,12 +89,12 @@ export default {
   components: {},
   head() {
       return {
-          title: 'About Promotion Efficiency',
+          title: 'About | Promotion Efficiency',
           meta: [
               {
                   hid: 'description',
                   name: 'description',
-                  content:'About Promotion Efficiency'
+                  content:'We are your guiding partner on your HIKE TO PEAK'
               }
 
           ]

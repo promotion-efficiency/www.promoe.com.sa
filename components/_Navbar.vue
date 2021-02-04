@@ -12,15 +12,16 @@
                 <b-link :href="publicPath + '#whyus'">Why Us</b-link>
                 <b-link :href="publicPath + '#services'">Services</b-link>
                 <b-link :href="publicPath + '#work'">Portfolio</b-link>
-                <b-link :href="publicPath + 'ContactUS'">Contact Us</b-link>
+                <b-link :href="publicPath + 'Contact'">Contact Us</b-link>
                 <hr />
-                <router-link to="/jobs">Jobs Application</router-link>
+                <!-- <router-link to="/Jobs">Jobs Application</router-link> -->
               </div>
             </b-sidebar>
         </b-navbar-nav>
     </b-navbar>
   </header>
 </template>
+
 <script>
 export default {
   data() {
@@ -54,9 +55,6 @@ export default {
           nav.classList.add('navbar-dark')
       }
     }
-  },
-  methods:{
-    
   }
 }
 </script>

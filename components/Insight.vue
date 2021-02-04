@@ -1,7 +1,6 @@
 <template>
   <!-- Insight Section -->
-  <section id="insight" class="pb-3 pb-lg-5 text-center" 
-  :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/insight/insight_dot_map.png)' }">
+  <section id="insight" class="pb-3 pb-lg-5 text-center" :style="{ backgroundImage: 'url(' + publicPath + '/assets/imgs/insight/insight_dot_map.png)' }">
     <div class="tt-shape tt-shape-top tt-shape-flip" data-negative="false">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" style="width:calc(100% + 1.3px); height:150px;">
         <path class="tt-shape-fill" style="fill:#ffffff;" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path> 
@@ -14,7 +13,6 @@
       <h2 class="insight2 text-white mb-5 pb-2 pt-3">
         <span v-html="this.$store.state.jsonData.sections.insight.title"></span><br />
         <small class="mt-5"><strong>{{this.$store.state.jsonData.sections.insight.subtitle }}</strong></small>
-        
       </h2>
     </header>
 

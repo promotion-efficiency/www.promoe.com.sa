@@ -1,23 +1,10 @@
 <template>
   <!-- Get Started Section -->
-  <section
-    id="getstarted"
-    class="py-5 text-center separatorArrow bg-white overflow-hidden"
-    :style="{
-      backgroundImage:
-        'url(' + publicPath + 'assets/imgs/getstarted/getstarted.png)',
-    }"
-  >
+  <section id="getstarted" class="py-5 text-center separatorArrow bg-white overflow-hidden" :style="{ backgroundImage: 'url(' + publicPath + 'assets/imgs/getstarted/getstarted.png)',}">
     <header>
-      <b-img
-        :src="publicPath + '/assets/imgs/logo/greendivider.png'"
-        alt=""
-        height="90"
-        class="pt-3 d-none d-lg-inline"
-      ></b-img>
+      <b-img :src="publicPath + '/assets/imgs/logo/greendivider.png'" alt="" height="90" class="pt-3 d-none d-lg-inline"></b-img>
       <h2 class="insight2 text-dark mb-5 pb-2 pt-3">
         <small class="text-muted mt-5"><span v-html="this.$store.state.jsonData.sections.getstarted.title"></span></small><br />
-          
           <strong>{{ this.$store.state.jsonData.sections.getstarted.subtitle }}</strong>
       </h2>
     </header>
