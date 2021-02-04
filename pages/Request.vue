@@ -15,7 +15,7 @@
 export default {
     head() {
       return {
-          title: 'Request a service',
+          title: 'Request a Service',
           meta: [
               {
                   hid: 'description',
