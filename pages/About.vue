@@ -85,8 +85,6 @@
 <script>
 
 export default {
-  name: 'Home',
-  components: {},
   head() {
       return {
           title: 'About | Promotion Efficiency',

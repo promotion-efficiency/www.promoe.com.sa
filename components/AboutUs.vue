@@ -20,7 +20,7 @@
           </b-col>
           <div class="line"></div>
         </b-row>
-        <div class="about-us-btn"><button><a href="/AboutUs">About Us</a></button></div>
+        <div class="about-us-btn"><button><a href="/About">About Us</a></button></div>
       </b-container>
     </b-container>
   </section>  

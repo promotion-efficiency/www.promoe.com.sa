@@ -12,7 +12,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" lg="6" class="mb-5 mb-lg-0 text-lg-right">
-          <a role="button" class="btn btn-success py-3 px-5 text-dark border-0 font-weight-normal" href="/ContactUS" >REQUEST CONSULTATION</a>
+          <a role="button" class="btn btn-success py-3 px-5 text-dark border-0 font-weight-normal" href="/Contact" >REQUEST CONSULTATION</a>
         </b-col>
         <b-col cols="12" lg="6" class="text-lg-left">
           <a target="_blank" role="button" class="btn btn-danger py-3 px-5 text-white border-0 font-weight-normal" :href="publicPath + this.$store.state.jsonData.sections.getstarted.content.profile_link">
