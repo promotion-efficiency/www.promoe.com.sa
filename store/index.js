@@ -11,7 +11,7 @@ export const mutations = {
 
 export const actions ={
     async nuxtServerInit({commit}){
-        const myresult = await this.$axios.$get('https://dev.promoe.com.sa/db.json')
+        const myresult = await this.$axios.$get('https://www.promoe.com.sa/db.json')
         commit('setJson', myresult);
     }
 }

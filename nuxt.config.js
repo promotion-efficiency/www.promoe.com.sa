@@ -36,7 +36,7 @@ export default {
   ],
   
   env: {
-    baseUrl: process.env.BASE_URL || 'https://dev.promoe.com.sa/'
+    baseUrl: process.env.BASE_URL || 'https://www.promoe.com.sa/'
   },
 
   modules: [
