@@ -11,7 +11,7 @@
     </header>
 
     <b-row class="pt-1 pt-lg-5" no-gutters>
-      <b-col v-for="(item, index) in this.$store.state.jsonData.sections.work.content" v-bind:key="item.title" cols="12" lg="3" :class="{ 'd-none d-lg-block': index+1 > 3 }" class="px-0">
+      <b-col v-for="item in this.$store.state.jsonData.sections.work.content" v-bind:key="item.title" cols="12" lg="3" class="px-0">
         <div class="member-bg" :style="{ backgroundImage: 'url(' + publicPath + item.picture + ')'}">
           <div class="bio p-4">
             <div>
@@ -23,11 +23,12 @@
       </b-col>
     </b-row>
 
-    <b-row class="mb-3 d-block d-lg-none py-5 text-center" no-gutters>
+    <!-- Does not work yet -->
+    <!-- <b-row class="mb-3 d-block d-lg-none py-5 text-center" no-gutters>
       <b-col>
         <a role="button" class="btn btn-primary py-3 px-4 border-0 text-dark font-weight-normal" style="color:white !important;" href="#">SEE MORE</a>
       </b-col>
-    </b-row>
+    </b-row> -->
 
     <svg id="special" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
       <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
