@@ -5,6 +5,7 @@
     <Video />
     <Services />
     <!-- <Insight /> -->
+    <Socialportfolio />
     <Work />
     <Clients />
     <GetStarted />
