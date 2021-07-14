@@ -42,7 +42,7 @@ export default {
     buildModules: [],
 
     env: {
-        baseUrl: process.env.BASE_URL || 'https://www.promoe.com.sa/'
+        baseUrl: process.env.BASE_URL || 'http://localhost:3000/'
     },
 
     modules: [
