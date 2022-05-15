@@ -1,12 +1,117 @@
-@import '_variables.scss';
-@import '_mixins.scss';
+
 @import '_fonts.scss';
 
 @import '~bootstrap/scss/bootstrap';
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+@import '_mixins.scss';
+@import '_variables.scss';
 @import '_bs_overrides.scss';
 
 body{
-    background:red;
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+header{
+    .nav-pills{
+        .nav-link{
+            color: var(--new-blue-color);
+
+            &.active{
+                color: inherit;
+                background-color: transparent;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+section#hero{
+    height:75vh;
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        Position: absolute;
+        Bottom: 0;
+        Width: 100%;
+        Height: 100px;
+        background: linear-gradient(to top, #f5f5f5, transparent);
+        z-index: 100000;
+    }
+
+    .layer {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+    }
+    
+    .layer_1 {
+        z-index: 1;
+    }
+    
+    .layer_2 {
+        z-index: 2;
+    }
+    
+    .layer_3 {
+        z-index: 3;
+        width: 200%;
+        background-size: cover;
+        -webkit-animation: movingclouds 25s linear infinite;
+        -moz-animation: movingclouds 25s linear infinite;
+        -o-animation: movingclouds 25s linear infinite;
+    }
+    
+    .layer_4 {
+        z-index: 4;
+    }
+    
+    .layer_5 {
+        z-index: 5;
+    }
+
+    
+      
+      .animate__animated.animate__shakeX {
+        --animate-duration: 20s;
+      }
+      
+}
+
+@keyframes movingclouds {
+    0% {
+      margin-left: 0%;
+    }
+  
+    100% {
+      margin-left: -100%;
+    }
+  }
+
+section#services{
+    .card{
+        background-color: var(--new-blue-color);
+        color:white;
+        border:none;
+        border-radius: 1rem;
+
+        &:hover{
+            background-color: lighten($new-blue-color,2%);
+        }
+    }
+
+    
 }

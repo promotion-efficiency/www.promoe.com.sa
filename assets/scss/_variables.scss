@@ -1,0 +1,24 @@
+$new-blue-color: #003852;
+:root {
+    --bs-dark-rgb: 49, 49, 49;
+    --bs-font-sans-serif: 'Montserrat', sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: 'Montserrat', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --new-blue-color: #{$new-blue-color};
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #003852;
+    --bs-btn-border-color: #00344d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #006999;
+    --bs-btn-hover-border-color: #005780;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #006999;
+    --bs-btn-active-border-color: #005780;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #002333;
+    --bs-btn-disabled-border-color: #00111a;
+}
