@@ -3,10 +3,15 @@
     <!-- header section -->
     <Header />
 
-    <nuxt />
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <nuxt />
+            </div>
+        </div>
+    </div>
 
     <!-- contact section -->
-    <SectionsContact title="Contact Us" subtitle="Type your message below and we will get back to you sooner than you think" class="py-5 mb-5" />
 
     <!-- footer section -->
     <Footer />

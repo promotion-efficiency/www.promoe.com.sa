@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="p-3 container">
+  <section id="hero">
         <div class="layer layer_1" :style="{ backgroundImage: 'url(' + publicPath + '/assets/images/hero/layer_1.png)' }"></div>
         <div class="layer layer_2" :style="{ backgroundImage: 'url(' + publicPath + '/assets/images/hero/layer_2.png)' }"></div>
         <div class="layer layer_3" :style="{ backgroundImage: 'url(' + publicPath + '/assets/images/hero/layer_3.png)' }"></div>
