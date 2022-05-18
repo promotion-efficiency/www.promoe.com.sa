@@ -1,6 +1,10 @@
 ---
-title: Social Media Campaigns
+title: Jarir Bookstore
 description: Social Media Cddd and others
-icon: 'bi-rulers
+image: '4.png'
+link: '#'
+client: "jarir"
+service: "Social Media Campaigns"
+
 ---
 On jarir project, the team have worked on plenty of things

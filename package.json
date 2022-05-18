@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
+    "@nuxtjs/i18n": "^7.2.2",
     "bootstrap": "^5.2.0-beta1",
     "bootstrap-icons": "^1.8.2",
     "core-js": "^3.19.3",
@@ -23,5 +24,8 @@
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.1.1"
   }
 }

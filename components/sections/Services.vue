@@ -1,7 +1,7 @@
 <template>
 	<section id="services">
 		<Title
-			title="Services"
+			:title="$t('Services')"
 			subtitle="THAT YOU'LL DEFINETLY ENJOY"
 			divider="divider-black"
 		></Title>

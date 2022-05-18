@@ -3,5 +3,7 @@ title: Jarir Bookstore
 description: Social Media Cddd and others
 image: '2.jpg'
 link: '#'
+client: "jarir"
+service: "videography"
+related_images: 
 ---
-On jarir project, the team have worked on plenty of things

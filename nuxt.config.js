@@ -34,13 +34,44 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    '@nuxt/content', '@nuxtjs/i18n',
+    
   ],
+
+  i18n: {
+    locales: [
+        {
+          code: 'en',
+          iso:'en-US',
+          file: 'en-US.js',
+          dir: 'ltr'
+        },
+        {
+          code: 'ar',
+          iso:'ar-SA',
+          file: 'ar-SA.js',
+          dir: 'rtl'
+        }
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en',
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+
+    vueI18n: {
+      fallbackLocale: 'en'
+    }
+  },
+  colorMode: {
+
+  },
+
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

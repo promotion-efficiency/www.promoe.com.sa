@@ -25,7 +25,7 @@
 <script>
 export default {
     async asyncData({ $content }) {
-        const works = await $content("projects").fetch();
+        const works = await $content("works").fetch();
         const services = await $content("services").fetch();
         return { works, services };
     },
