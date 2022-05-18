@@ -21,7 +21,6 @@
 		mounted() {
 			//const colorMode = useColorMode()
 
-			console.log(this.$colorMode['value']);
 		}
 	};
 </script>

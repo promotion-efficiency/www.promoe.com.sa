@@ -49,20 +49,15 @@
 <script>
 	export default {
 		mounted() {
-			console.log('haha', this.$colorMode['value']);
 		},
 		methods: {
 			toggleDarkMode() {
-                console.log('toggle clicked')
-                console.log(this.$colorMode.preference, this.$colorMode.preference)
                 
 				if (this.$colorMode.preference !== 'dark') {
 					this.$colorMode.preference = 'dark';
-                    console.log('going dark')
                     
 				} else {
 					this.$colorMode.preference = 'light';
-                    console.log('going light')
 				}
                 
 			}

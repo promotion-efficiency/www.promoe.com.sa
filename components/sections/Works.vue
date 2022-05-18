@@ -14,7 +14,6 @@
 export default {
     props: ['works'],
     mounted(){
-        console.log(this.works);
     }
 }
 </script>

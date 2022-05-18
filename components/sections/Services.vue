@@ -24,7 +24,6 @@
 	export default {
 		props: ["services"],
 		mounted() {
-			console.log(this.services);
 		},
 	};
 </script>
