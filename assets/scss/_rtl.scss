@@ -1,0 +1,50 @@
+html[lang="ar-SA"] {
+	direction: rtl;
+
+	.text-md-start {
+		text-align: right !important;
+	}
+    
+    .me-auto{
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+
+    .ms-auto{
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+	--bs-body-text-align: start;
+
+	.form-floating>label {
+		left: auto;
+		right: 0;
+	}
+
+	.form-select {
+		padding: 0.375rem 0.75rem 0.375rem 2.25rem;
+	}
+
+	.form-floating>.form-select {
+		padding-top: 1.625rem;
+		padding-bottom: 0.625rem;
+	}
+
+	.navbar-nav {
+		padding-right: 0;
+	}
+
+	.breadcrumb-item+.breadcrumb-item::before {
+		float: right;
+		padding-left: 0.5rem;
+		content: "\\";
+	}
+
+	@media (min-width: 768px) {
+		.offset-md-1 {
+			margin-left: auto;
+			margin-right: 8.33333333%;
+		}
+	}
+}

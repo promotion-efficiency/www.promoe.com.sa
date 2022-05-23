@@ -2,8 +2,8 @@
   <article class="pb-5 mb-5">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="/">Home</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="/">Pages</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="/">{{ $t('Home') }}</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="/">{{ $t('Pages') }}</a></li>
         </ol>
     </nav>
     <h1 class="pb-3 border-bottom mb-3">{{ page.title }}</h1>
@@ -17,8 +17,8 @@
 <script>
 export default {
     layout: 'article',
-	async asyncData({ $content, params }) {
-		const page = await $content('pages', params.slug)
+	async asyncData({ $content, params, app }) {
+		const page = await $content(app.i18n.locale, 'pages', params.slug)
 			.fetch();
 		return {
 			page

@@ -1,19 +1,21 @@
 <template>
 	<section id="services">
-		<Title
+		
+		<div class="container">
+            <Title
 			:title="$t('Services')"
-			subtitle="THAT YOU'LL DEFINETLY ENJOY"
+			:subtitle="$t('thatyouwillenjoy')"
 			divider="divider-black"
 		></Title>
-		<div class="container">
 			<div class="row row-cols-1 row-cols-md-4 g-4 text-center justify-content-center">
 				<Service
 					v-for="service of services"
-					:key="service.createdAt"
+					:key="localePath(service.path)"
 					:icon="service.icon"
 					:title="service.title"
+                    :image="service.featured_image"
 					:description="service.description"
-                    :link="`services/${service.slug}`"
+                    :link="localePath(service.path)"
 				/>
 			</div>
 		</div>

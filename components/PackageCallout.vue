@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-primary text-light text-center py-5">
+    <section>
         <h4 class="mb-4 fs-1 fw-light">{{ text }}</h4>
-        <a :href="link" class="btn btn-outline-light btn-lg">{{ buttonText }}</a>
+        <a :href="link" class="btn btn-outline-primary btn-lg">{{ buttonText }}</a>
     </section>
 </template>
 

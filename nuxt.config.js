@@ -1,87 +1,117 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-  ssr: false,
+	target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'js_nuxt_promoe.com.sa',
-    htmlAttrs: {
-      lang: 'en'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
+	ssr: false,
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-        '~/assets/scss/main.scss'
-    ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: '~/plugins/bootstrap.client.js' },
-  ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    '@nuxtjs/color-mode'
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content', '@nuxtjs/i18n',
     
-  ],
+	head: {
+		title: 'Promotion Efficiency - Your Hike to PEAK!',
+		htmlAttrs: {
+			lang: 'en'
+		},
+		meta: [{
+				charset: 'utf-8'
+			},
+			{
+				name: 'viewport',
+				content: 'width=device-width, initial-scale=1'
+			},
+			{
+				hid: 'description',
+				name: 'description',
+				content: 'a platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'
+			},
+            {
+				hid: 'keywords',
+				name: 'keywords',
+				content: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design'
+			},
+			{
+				name: 'format-detection',
+				content: 'telephone=no'
+			}
+		],
+		link: [{
+			rel: 'icon',
+			type: 'image/x-icon',
+			href: '/favicon.ico'
+		}]
+	},
 
-  i18n: {
-    locales: [
-        {
-          code: 'en',
-          iso:'en-US',
-          file: 'en-US.js',
-          dir: 'ltr'
-        },
-        {
-          code: 'ar',
-          iso:'ar-SA',
-          file: 'ar-SA.js',
-          dir: 'rtl'
-        }
-    ],
-    lazy: true,
-    langDir: 'lang/',
-    defaultLocale: 'en',
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+	css: [
+		'~/assets/scss/main.scss'
+	],
 
-    vueI18n: {
-      fallbackLocale: 'en'
-    }
-  },
-  colorMode: {
+	plugins: [{
+			src: '~/plugins/bootstrap.client.js'
+		},
+		{
+			src: '~/plugins/countup.client.js'
+		}
+	],
 
-  },
+	components: true,
 
+	buildModules: [
+		'@nuxtjs/color-mode'
+	],
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+	modules: [
+		'@nuxt/content', '@nuxtjs/i18n',
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
+	],
 
-  },
-  env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
-  }
+	i18n: {
+        strategy: 'prefix',
+
+		locales: [{
+				code: 'en',
+				iso: 'en-US',
+				file: 'en-US.js',
+				dir: 'ltr'
+			},
+			{
+				code: 'ar',
+				iso: 'ar-SA',
+				file: 'ar-SA.js',
+				dir: 'rtl'
+			}
+		],
+		lazy: true,
+		langDir: 'lang/',
+		defaultLocale: 'en',
+		baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+
+		vueI18n: {
+			fallbackLocale: 'en'
+		}
+	},
+
+	colorMode: {
+
+	},
+
+	content: {},
+
+	generate: {
+		async routes() {
+			const {
+				$content
+			} = require('@nuxt/content')
+
+			const files = await $content({
+				deep: true
+			}).only(['path']).fetch()
+
+			return files.map(file => file.path === '/index' ? '/' : file.path)
+		}
+	},
+
+	build: {
+
+	},
+
+	env: {
+		baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+	}
 }
