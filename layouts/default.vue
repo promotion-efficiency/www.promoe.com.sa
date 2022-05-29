@@ -1,5 +1,6 @@
 <template>
-	<div>
+<default-layout>
+    <div>
 		<!-- header section -->
 		<Header />
 
@@ -11,17 +12,27 @@
 		<!-- footer section -->
 		<Footer />
 	</div>
+</default-layout>
+	
 </template>
 
 <script>
+  import DefaultLayout from '~/layouts/main_layout.vue';
+
 	export default {
 		head() {
-			return this.$nuxtI18nHead({ addSeoAttributes: true })
+			return {
+				htmlAttrs: {
+					lang: this.$i18n.locale
+				}
+			};
 		},
 		mounted() {
 			//const colorMode = useColorMode()
-
-		}
+		},
+        components: {
+            DefaultLayout,
+        },
 	};
 </script>
 

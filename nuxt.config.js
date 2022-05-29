@@ -1,17 +1,20 @@
 export default {
 	target: 'static',
+	ssr: true,
 
-	ssr: false,
-
-    
 	head: {
 		title: 'Promotion Efficiency - Your Hike to PEAK!',
+		titleTemplate: '%s | Promotion Efficiency',
 		htmlAttrs: {
-			lang: 'en'
+			lang: 'en',
 		},
 		meta: [{
 				charset: 'utf-8'
 			},
+            {
+                name:"theme-color",
+                 content:"#006999"
+            },
 			{
 				name: 'viewport',
 				content: 'width=device-width, initial-scale=1'
@@ -19,9 +22,9 @@ export default {
 			{
 				hid: 'description',
 				name: 'description',
-				content: 'a platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'
+				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'
 			},
-            {
+			{
 				hid: 'keywords',
 				name: 'keywords',
 				content: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design'
@@ -29,13 +32,113 @@ export default {
 			{
 				name: 'format-detection',
 				content: 'telephone=no'
-			}
+			},
+			{
+				name: 'author',
+				content: 'Promotion Efficiency'
+			},
+			{
+				name: 'author',
+				type: 'text/plain',
+				href: '/humans.txt'
+			},
+
+			{
+				name: 'og:type',
+				content: 'website'
+			},
+			{
+                hid: 'og:title',
+				name: 'og:title',
+				content: 'Promotion Efficiency'
+			},
+			{
+                hid: 'og:locale',
+				name: 'og:locale',
+				content: 'en_US'
+			},
+			{
+                hid: 'og:locale:alternate',
+				name: 'og:locale:alternate',
+				content: 'ar_SA'
+			},
+			{
+                hid: 'og:description',
+				name: 'og:description',
+				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'
+			},
+			{
+                hid: 'og:image',
+				name: 'og:image',
+				content: 'https://www.promoe.com.sa/assets/images/social_icon.png'
+			},
+			{
+                hid: 'og:url',
+				name: 'og:url',
+				content: 'https://www.promoe.com.sa'
+			},
+			{
+				name: 'og:site_name',
+				content: 'Promotion Efficiency'
+			},
+
+			{
+				name: 'twitter:card',
+				content: 'summary_large_image'
+			},
+			{
+                hid: 'twitter:title',
+				name: 'twitter:title',
+				content: 'Promotion Efficiency'
+			},
+			{
+                hid: 'twitter:description',
+				name: 'twitter:description',
+				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'
+			},
+			{
+                hid: 'twitter:image',
+				name: 'twitter:image',
+				content: 'https://www.promoe.com.sa/assets/images/social_icon.png'
+			},
+			{
+				name: 'twitter:url',
+				content: 'https://www.promoe.com.sa'
+			},
+			{
+				name: 'twitter:site',
+				content: '@promoefficiency'
+			},
+			{
+				name: 'twitter:creator',
+				content: '@promoefficiency'
+			},
 		],
 		link: [{
-			rel: 'icon',
-			type: 'image/x-icon',
-			href: '/favicon.ico'
-		}]
+				rel: 'icon',
+				href: '/favicon.ico'
+			},
+			{
+				rel: 'icon',
+				type: 'image/x-icon',
+				href: '/favicon.ico'
+			},
+			{
+				rel: 'shortcut icon',
+				type: 'image/x-icon',
+				href: '/favicon.ico'
+			},
+			{
+				rel: 'icon',
+				type: 'image/svg+xml',
+				href: '/assets/images/logo.svg'
+			},
+			{
+				rel: 'icon',
+				type: 'image/png',
+				href: '/ssets/images/logo.png'
+			},
+		]
 	},
 
 	css: [
@@ -47,22 +150,49 @@ export default {
 		},
 		{
 			src: '~/plugins/countup.client.js'
+		},
+		{
+			src: '~/plugins/jsonld'
 		}
+	],
+
+	buildModules: [
+		'@nuxtjs/color-mode',
+		'@luxdamore/nuxt-humans-txt'
+	],
+
+	modules: [
+		'@nuxt/content', '@nuxtjs/i18n','@nuxtjs/sitemap'
+
 	],
 
 	components: true,
 
-	buildModules: [
-		'@nuxtjs/color-mode'
-	],
+	build: {
 
-	modules: [
-		'@nuxt/content', '@nuxtjs/i18n',
+	},
 
-	],
+	generate: {
+		async routes() {
+			const {
+				$content
+			} = require('@nuxt/content')
+
+			const files = await $content({
+				deep: true
+			}).only(['path']).fetch()
+
+			return files.map(file => file.path === '/index' ? '/' : file.path)
+		}
+	},
+
+	env: {
+		baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+	},
+
 
 	i18n: {
-        strategy: 'prefix',
+		strategy: 'prefix',
 
 		locales: [{
 				code: 'en',
@@ -87,31 +217,97 @@ export default {
 		}
 	},
 
+    sitemap: {
+        // options
+        hostname: "https://www.promoe.com.sa",
+        gzip: true,
+        i18n: true,
+        // nuxt-i18n notation (advanced)
+        i18n: {
+            locales: ['en', 'ar'],
+            routesNameSeparator: '___'
+        }
+
+    },
+
 	colorMode: {
 
 	},
 
 	content: {},
 
-	generate: {
-		async routes() {
-			const {
-				$content
-			} = require('@nuxt/content')
-
-			const files = await $content({
-				deep: true
-			}).only(['path']).fetch()
-
-			return files.map(file => file.path === '/index' ? '/' : file.path)
-		}
+	humansTxt: {
+		enabled: true,
+		hideGenericMessagesInConsole: false, // Disabled in production
+		hideErrorsInConsole: false,
+		fileName: 'humans.txt',
+		fileEncoding: 'utf8',
+		link: {
+			// Inject `<link type="text/plain" rel="<link.rel>" href="<link.href><filename>" />` inside the `head`
+			// Set to `link: false` to disable this behavior
+			rel: 'author',
+			href: '',
+			hid: 'humans-txt',
+		},
+		keepDevelopersInformations: true, // Keep info of my work in your `humans.txt` file 😍
+		// "The internet is for humans"
+		thanksTo: [
+			'BACKSTAGE',
+            {
+                key: 'Promotion Efficiency CEO',
+                value: 'Adel Omer',
+            },
+            {
+                key: 'From',
+                value: 'Khobar, Saudi Arabia',
+            },
+            {
+                key: 'Twitter',
+                value: '@promoefficiency',
+            },
+            {
+                key: '6 Degrees',
+                value: 'https://www.6d.com.sa',
+            },
+		],
+		site: [
+			'SITE',
+			{
+				key: 'Last update',
+				value: new Date().toLocaleDateString(
+					'en-US', {
+						month: '2-digit',
+						day: '2-digit',
+						year: 'numeric',
+					}
+				),
+			},
+			{
+				key: 'Standards',
+				value: [
+					'HTML5',
+					'CSS3',
+					'Javascript',
+				],
+			},
+			{
+				key: 'Components',
+				value: 'VueJs',
+			},
+			{
+				key: 'Software',
+				value: 'NuxtJs',
+			},
+			{
+				key: 'Language',
+				value: 'English/Arabic',
+			},
+			{
+				key: 'Doctype',
+				value: 'HTML5',
+			},
+		],
 	},
 
-	build: {
 
-	},
-
-	env: {
-		baseUrl: process.env.BASE_URL || 'http://localhost:3000'
-	}
 }

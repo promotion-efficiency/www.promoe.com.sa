@@ -1,6 +1,7 @@
 ---
 title: Packages
 subtitle: 'something to write'
+description: ''
 ---
 
 Below, you can find details about our services' packages, once settled, get in touch and we will be more than happy to take you through a journey that you and your business will enjoy.

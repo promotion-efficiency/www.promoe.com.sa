@@ -9,7 +9,7 @@
 							<div class="row row-cols-1 row-cols-md-2">
 								<div class="col col-md-7">
 									<form action="https://formsubmit.co/contact@promoe.com.sa" method="POST" id="contact-form" novalidate="" class="needs-validation">
-										<input type="hidden" name="_next" value="https://dev.promoe.com.sa/thanks" />
+										<input type="hidden" name="_next" :value="`${publicPath}/thanks`" />
 										<input type="hidden" name="_subject" :value="selected" />
 										<input type="text" name="_honey" style="display: none" />
 
@@ -54,10 +54,11 @@
 									<h4 class="fw-bold">{{ $t('orsimplyusethese') }}</h4>
 									<div class="contact-info ps-4">
 										<h6 class="mt-4"><i class="bi bi-phone"></i> {{ $t('phonenumber') }}:</h6>
-										<a dir="ltr" href="tel:+966-55555555">+966-55555555</a>
+										<a dir="ltr" href="tel:+966-581115550">+966 58 111 5550</a>
 										<h6 class="mt-4"><i class="bi bi-envelope"></i> {{ $t('emailaddress') }}:</h6>
 										<a  dir="ltr" href="mailto:contact@promoe.com.sa">contact@promoe.com.sa</a>
 										<h6 class="mt-4"><i class="bi bi-globe"></i> {{ $t('address') }}:</h6>
+                                        <p v-html="$t('address_details')"></p>
 										<iframe class="w-100" src="https://snazzymaps.com/embed/281438" height="300px" style="border: none"></iframe>
 									</div>
 								</div>
@@ -75,6 +76,7 @@
 		props: ['title', 'subtitle'],
 		data() {
 			return {
+                publicPath: process.env.baseUrl,
 				selected: ''
 			};
 		}

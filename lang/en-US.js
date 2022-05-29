@@ -10,10 +10,7 @@ export default {
     equipped with ambition and creativity at the ﬁelds of marketing \
     and advertisement, which makes them create unusual, innovative, \
     and out-of-the-box marketing solutions that outperform current \
-    conventional methods. As we are a 100% owned and run Saudi establishment \
-    which specializes in advertising, we understand the surrounding community, \
-    their needs, and their desires. This allows us to help our local clients grow their \
-    businesses as well as international companies who are expanding to Saudi Arabia.',
+    conventional methods.',
     Services: 'Services',
     thatourclientsenjoyed: 'WHAT OUR CLIENTS HAVE ENJOYED',
     Works: 'Works',
@@ -25,6 +22,10 @@ export default {
     phonenumber: 'Phone Number',
     emailaddress: 'Email Address',
     address: 'Address',
+    address_details: '6919 Prince Turki Road, Corniche<br>Khobar, Eastern Region 34413,<br>Saudi Arabia',
+    packages_information_text: 'View more information about the packages and prices of this service?',
+    packages_information_button: 'Lets Go',
+
     submitform: 'Submit',
     contactsubject: 'Subject',
     contactname: 'Your Name',

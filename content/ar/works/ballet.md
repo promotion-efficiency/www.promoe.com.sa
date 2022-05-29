@@ -7,4 +7,3 @@ client: "Ballet"
 service: "Social Media Campaigns"
 
 ---
-Text should be here

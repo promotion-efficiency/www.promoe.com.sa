@@ -5,8 +5,12 @@
 				<article class="pb-5 mb-5">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item" aria-current="page"><a href="/">{{ $t('Home') }}</a></li>
-							<li class="breadcrumb-item" aria-current="page"><a href="/#services">{{ $t('Services') }}</a></li>
+							<li class="breadcrumb-item" aria-current="page">
+								<a href="/">{{ $t('Home') }}</a>
+							</li>
+							<li class="breadcrumb-item" aria-current="page">
+								<a href="/#services">{{ $t('Services') }}</a>
+							</li>
 						</ol>
 					</nav>
 
@@ -24,7 +28,9 @@
 								<div v-for="work of works" :key="work.createdAt" class="work col bg-light">
 									<div class="ratio ratio-1x1">
 										<div class="d-flex justify-content-center align-items-center">
-											<a :href="localePath(`/works/${work.slug}`)"><img class="contained-image" v-if="work.featured_image" :src="require(`~/assets/images/works/${work.featured_image}`)" :alt="work.title" /></a>
+											<a :href="localePath(`/works/${work.slug}`)">
+                                            <img class="contained-image" v-if="work.featured_image" :src="require(`~/assets/images/works/${work.featured_image}`)" :alt="work.title" />
+                                            </a>
 										</div>
 									</div>
 								</div>
@@ -35,7 +41,7 @@
 			</div>
 		</div>
 
-		<PackageCallout class="rounded-3 bg-primary text-light text-center py-5" v-if="service.packages_link" text="Something to do" buttonText="Lets Go" :link="service.packages_link" />
+		<PackageCallout class="rounded-3 p-5 bg-primary text-light text-center py-5" v-if="service.packages_link" :text="$t('packages_information_text')" :buttonText="$t('packages_information_button')" :link="localePath(service.packages_link)" />
 
 		<SectionsContact :title="$t('readytojoin')" :subtitle="$t('contactussub')" class="pt-5 mt-5" />
 	</div>
@@ -53,6 +59,67 @@
 				works
 			};
 		},
-		components: { PackageCallout }
+		components: { PackageCallout },
+		head() {
+            let samples_of_work = [];
+            let image_meta_og = {};
+            let image_meta_twitter = {};
+            
+            if(this.works.length > 0){
+                this.works.forEach(element => {
+                    samples_of_work.push(this.publicPath + require(`~/assets/images/works/${element.featured_image}`));
+                });
+                image_meta_og.name = 'og:image'
+                image_meta_og.hid = 'og:image'
+                image_meta_og.content = samples_of_work[0];
+                image_meta_twitter.name = 'twitter:image'
+                image_meta_twitter.hid = 'twitter:image'
+                image_meta_twitter.content = samples_of_work[0];
+
+            }
+
+            const that = this;
+			return {
+				title: that.service.title,
+				meta: [
+					{
+						hid: 'description',
+						name: 'description',
+						content: that.service.description
+					},
+                    { hid: 'og:title', name: 'og:title', content: that.service.title },
+                    { hid: 'og:description', name: 'og:description', content: that.service.description },
+                    { hid: 'og:url', name: 'og:url', content: `${this.publicPath}` },
+                    {...image_meta_og},
+
+                    { hid: 'twitter:title', name: 'twitter:title', content: that.service.title },
+                    { hid: 'twitter:description', name: 'twitter:description', content: this.service.description },
+                    { hid: 'twitter:url', name: 'twitter:url', content: `${this.publicPath}` },
+                    {...image_meta_twitter},
+				]
+
+			};
+		},
+        jsonld() {
+            let samples_of_work = [];
+            if(this.works.length > 0){
+                this.works.forEach(element => {
+                    samples_of_work.push(this.publicPath + require(`~/assets/images/works/${element.featured_image}`));
+                });
+            }
+			return {
+				'@context': 'https://schema.org',
+				'@type': 'Service',
+                serviceType: this.service.title,
+                name: this.service.title,
+                description: this.service.description,
+                image: samples_of_work,       
+			};
+		},
+        data() {
+        return {
+            publicPath: process.env.baseUrl,
+        }
+    },
 	};
 </script>

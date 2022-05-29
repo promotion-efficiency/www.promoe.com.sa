@@ -1,5 +1,6 @@
 <template>
-	<div>
+<default-layout>
+    <div>
 		<!-- header section -->
 		<Header />
 
@@ -16,14 +17,25 @@
 		<!-- footer section -->
 		<Footer />
 	</div>
+</default-layout>
+	
 </template>
 
 <script>
-	export default {
-		head() {
-			return this.$nuxtI18nHead({ addSeoAttributes: true })
-		}
-	};
+    import DefaultLayout from '~/layouts/main_layout.vue';
+
+    export default {
+        head() {
+            return {
+                htmlAttrs: {
+                    lang: this.$i18n.locale
+                }
+            };
+        },
+        components: {
+            DefaultLayout,
+        },
+    };
 </script>
 
 <style>
