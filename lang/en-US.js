@@ -1,5 +1,8 @@
 export default {
     solgan: 'Your Hike to PEAK!',
+    title: 'Promotion Efficiency',
+    description: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions',
+    keywords: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design',
     copyrights: 'Promotion Efficiency Est. All right reserved. copyright 2021',
     About: 'About',
     Home: 'Home',
