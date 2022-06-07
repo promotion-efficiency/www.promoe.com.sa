@@ -35,6 +35,7 @@ export default {
     contactemail: 'Your Email',
     contactmobile: 'Your Mobile',
     contactmessage: 'Your Message',
+    contactthanks: 'Your message has been received, we will get back to you shortly.',
     arabic: 'عربي',
     english: 'إنقليزي',
     ourclients:'Our Clients',

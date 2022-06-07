@@ -64,10 +64,19 @@ export default {
 	],
 
 	modules: [
-		'@nuxt/content', '@nuxtjs/i18n','@nuxtjs/sitemap'
-
+		'@nuxt/content', 
+        '@nuxtjs/i18n',
+        '@nuxtjs/sitemap',
+        '@nuxtjs/robots',
 	],
 
+    robots: [
+        {
+          UserAgent: '*',
+          Disallow: ['/thanks','/ar/thanks', '/en/thanks']
+        }
+    
+      ],
 	components: true,
 
 	build: {

@@ -33,6 +33,7 @@ export default {
     contactemail: 'بريدك الإلكتروني',
     contactmobile: 'رقم هاتفك',
     contactmessage: 'رسالتك',
+    contactthanks: 'تم إستلام رسالتك، سنقوم بالرد عليك بأقرب وقت ممكن',
     arabic: 'Arabic',
     english: 'English',
     ourclients:'عملاءنا',
