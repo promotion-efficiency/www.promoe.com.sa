@@ -69,24 +69,22 @@
                 this.works.forEach(element => {
                     samples_of_work.push(this.publicPath + require(`~/assets/images/works/${element.featured_image}`));
                 });
+                
                 image_meta_og.name = 'og:image'
                 image_meta_og.hid = 'og:image'
                 image_meta_og.content = samples_of_work[0];
+                
                 image_meta_twitter.name = 'twitter:image'
                 image_meta_twitter.hid = 'twitter:image'
                 image_meta_twitter.content = samples_of_work[0];
-
             }
 
             const that = this;
+            console.log(this.service);
 			return {
 				title: that.service.title,
 				meta: [
-					{
-						hid: 'description',
-						name: 'description',
-						content: that.service.description
-					},
+					{hid: 'description',name: 'description',content: that.service.description},
                     { hid: 'og:title', name: 'og:title', content: that.service.title },
                     { hid: 'og:description', name: 'og:description', content: that.service.description },
                     { hid: 'og:url', name: 'og:url', content: `${this.publicPath}` },
@@ -97,7 +95,6 @@
                     { hid: 'twitter:url', name: 'twitter:url', content: `${this.publicPath}` },
                     {...image_meta_twitter},
 				]
-
 			};
 		},
         jsonld() {

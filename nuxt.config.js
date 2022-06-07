@@ -8,136 +8,38 @@ export default {
 		htmlAttrs: {
 			lang: 'en',
 		},
-		meta: [{
-				charset: 'utf-8'
-			},
-            {
-                name:"theme-color",
-                 content:"#006999"
-            },
-			{
-				name: 'viewport',
-				content: 'width=device-width, initial-scale=1'
-			},
-			{
-				hid: 'description',
-				name: 'description',
-				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'
-			},
-			{
-				hid: 'keywords',
-				name: 'keywords',
-				content: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design'
-			},
-			{
-				name: 'format-detection',
-				content: 'telephone=no'
-			},
-			{
-				name: 'author',
-				content: 'Promotion Efficiency'
-			},
-			{
-				name: 'author',
-				type: 'text/plain',
-				href: '/humans.txt'
-			},
-
-			{
-				name: 'og:type',
-				content: 'website'
-			},
-			{
-                hid: 'og:title',
-				name: 'og:title',
-				content: 'Promotion Efficiency'
-			},
-			{
-                hid: 'og:locale',
-				name: 'og:locale',
-				content: 'en_US'
-			},
-			{
-                hid: 'og:locale:alternate',
-				name: 'og:locale:alternate',
-				content: 'ar_SA'
-			},
-			{
-                hid: 'og:description',
-				name: 'og:description',
-				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'
-			},
-			{
-                hid: 'og:image',
-				name: 'og:image',
-				content: 'https://www.promoe.com.sa/assets/images/social_icon.png'
-			},
-			{
-                hid: 'og:url',
-				name: 'og:url',
-				content: 'https://www.promoe.com.sa'
-			},
-			{
-				name: 'og:site_name',
-				content: 'Promotion Efficiency'
-			},
-
-			{
-				name: 'twitter:card',
-				content: 'summary_large_image'
-			},
-			{
-                hid: 'twitter:title',
-				name: 'twitter:title',
-				content: 'Promotion Efficiency'
-			},
-			{
-                hid: 'twitter:description',
-				name: 'twitter:description',
-				content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'
-			},
-			{
-                hid: 'twitter:image',
-				name: 'twitter:image',
-				content: 'https://www.promoe.com.sa/assets/images/social_icon.png'
-			},
-			{
-				name: 'twitter:url',
-				content: 'https://www.promoe.com.sa'
-			},
-			{
-				name: 'twitter:site',
-				content: '@promoefficiency'
-			},
-			{
-				name: 'twitter:creator',
-				content: '@promoefficiency'
-			},
+		meta: [
+            {hid:'charset', charset: 'utf-8'},
+            {name:"theme-color",content:"#006999"},
+			{name: 'viewport',content: 'width=device-width, initial-scale=1'},
+			{hid: 'description',name: 'description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'},
+			{hid: 'keywords',name: 'keywords',content: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design'},
+			{name: 'format-detection',content: 'telephone=no'},
+			{hid: 'author:text',name: 'author',content: 'Promotion Efficiency'},
+			{hid: 'author:file',name: 'author',type: 'text/plain',href: '/humans.txt'},
+			
+            {hid: 'og:type',name: 'og:type',content: 'website'},
+			{hid: 'og:title',name: 'og:title',content: 'Promotion Efficiency'},
+			{hid: 'og:description',name: 'og:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
+			{hid: 'og:image',name: 'og:image',content: 'https://www.promoe.com.sa/assets/images/social_icon.png'},
+			{hid: 'og:url',name: 'og:url',content: 'https://www.promoe.com.sa'},
+			{hid: 'og:site_name',name: 'og:site_name',content: 'Promotion Efficiency'},
+			
+            {hid: 'twitter:card',name: 'twitter:card',content: 'summary_large_image'},
+			{hid: 'twitter:title',name: 'twitter:title',content: 'Promotion Efficiency'},
+			{hid: 'twitter:description',name: 'twitter:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
+			{hid: 'twitter:image',name: 'twitter:image',content: 'https://www.promoe.com.sa/assets/images/social_icon.png'},
+			{hid: 'twitter:url',name: 'twitter:url',content: 'https://www.promoe.com.sa'},
+			{hid: 'twitter:site',name: 'twitter:site',content: '@promoefficiency'},
+			{hid: 'twitter:creator',name: 'twitter:creator',content: '@promoefficiency'},
 		],
-		link: [{
-				rel: 'icon',
-				href: '/favicon.ico'
-			},
-			{
-				rel: 'icon',
-				type: 'image/x-icon',
-				href: '/favicon.ico'
-			},
-			{
-				rel: 'shortcut icon',
-				type: 'image/x-icon',
-				href: '/favicon.ico'
-			},
-			{
-				rel: 'icon',
-				type: 'image/svg+xml',
-				href: '/assets/images/logo.svg'
-			},
-			{
-				rel: 'icon',
-				type: 'image/png',
-				href: '/ssets/images/logo.png'
-			},
+		link: [
+            { hid:'icon:normal', rel: 'icon', href: '/favicon.ico' },
+            { hid:'icon:x-icon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { hid:'icon:shortcut:x-icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { hid:'icon:svg', rel: 'icon', type: 'image/svg+xml', href: '/assets/images/logo.svg' },
+            { hid:'icon:png', rel: 'icon', type: 'image/png', href: '/ssets/images/logo.png' },
+            
 		]
 	},
 
