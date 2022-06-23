@@ -14,7 +14,7 @@ export default {
     },
     head() {
         let i18nHead = this.$nuxtI18nHead({ addSeoAttributes: true })
-        
+
         return{
             title: this.$t('title'),
             titleTemplate: `%s | ${this.$t('title')}`,
@@ -22,6 +22,9 @@ export default {
                 lang: 'en',
                 ...i18nHead.htmlAttrs
             },
+			script: [
+				{type: 'text/javascript',src: 'https://webforms.pipedrive.com/f/loader'},
+			],
             meta: [
                 {hid:'charset', charset: 'utf-8'},
 
@@ -59,7 +62,7 @@ export default {
                 ...i18nHead.link
             ]
         }
-		
+
 	},
 }
 </script>

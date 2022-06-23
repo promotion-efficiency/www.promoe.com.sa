@@ -7,47 +7,13 @@
 						<div class="card-body">
 							<Title :title="title" :subtitle="subtitle" divider="divider-blue"></Title>
 							<div class="row row-cols-1 row-cols-md-2">
-								<div class="col col-md-7">
-									<form action="https://formsubmit.co/contact@promoe.com.sa" method="POST" id="contact-form" novalidate="" class="needs-validation">
-										<input type="hidden" name="_next" :value="`${publicPath}/thanks`" />
-										<input type="hidden" name="_subject" :value="selected" />
-										<input type="text" name="_honey" style="display: none" />
-
-										<div class="form-floating mb-3">
-											<select v-model="selected" name="subject" class="form-select" id="floatingSelect" aria-label="Floating label select example">
-												<option disabled value="">Please select one</option>
-                                                <option>General Inquiry</option>
-												<option>Request Campaign</option>
-												<option>Request Design</option>
-												<option>Request Video</option>
-											</select>
-											<label for="floatingSelect">{{ $t('contactsubject') }}</label>
-										</div>
-										<div class="form-floating mb-3">
-											<input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required />
-											<label for="floatingInput">{{ $t('contactemail') }}</label>
-										</div>
-										<div class="form-floating mb-3">
-											<input name="name" type="text" class="form-control" id="floatingName" placeholder="Name" />
-											<label for="floatingName">{{ $t('contactname') }}</label>
-										</div>
-
-										<div class="form-floating mb-3">
-											<input name="mobile" type="text" class="form-control" id="floatingMobile" placeholder="Mobile" required />
-											<label for="floatingMobile">{{ $t('contactmobile') }}</label>
-										</div>
-
-										<div class="form-floating mb-3">
-											<textarea name="message" class="form-control" placeholder="Leave a comment here" style="height: 100px" id="floatingMessage"></textarea>
-											<label for="floatingMessage">{{ $t('contactmessage') }}</label>
-										</div>
-
-										<div class="form-floating mb-3">
-											<div class="d-grid gap-2">
-												<button class="btn btn-primary btn-lg" type="submit">{{ $t('submitform') }}</button>
-											</div>
-										</div>
-									</form>
+								<div class="col col-md-6  pt-4" style="background-color:white; border-radius: 10px;">
+									<div id="webFormDiv">
+										<div
+											class="pipedriveWebForms"
+											data-pd-webforms="https://webforms.pipedrive.com/f/73NrgnZ3EcEJnitT9nyE3N15V4IZCqPkjHtAq67ULPWsX6sdWWbfgd5x88m6xLoKxJ"
+										></div>
+									</div>
 								</div>
 
 								<div class="col col-md-4 offset-md-1 pt-5">
