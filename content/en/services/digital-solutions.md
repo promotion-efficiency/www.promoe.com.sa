@@ -9,13 +9,9 @@ Professional Digital Presence
 
 Your website is your customer's first destination to judge your business, our IT team designs websites and apps that match the user experience and search engines.
 
-
-
-• Website design and creation
-• Application development
-• Search Engine Optimization
+- Website design and creation
+- Application development
+- Search Engine Optimization
 
 Contact with the IT department
 To determine your website needs
-
-
