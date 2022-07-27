@@ -22,7 +22,7 @@
 				<div class="internal"><img src="~/assets/images/partners/new_partners/15.osn.png" /></div>
 			</div>
 
-			<div class="box-that-would-animata d-flex flex-nowrap mb-4" style="width: calc(3584px)">
+			<div class="box-that-would-animata reverse d-flex flex-nowrap mb-4" style="width: calc(3584px)">
 				<div class="internal"><img src="~/assets/images/partners/new_partners/16.procare-hospital.png" /></div>
 				<div class="internal"><img src="~/assets/images/partners/new_partners/17.scitech.png" /></div>
 				<div class="internal"><img src="~/assets/images/partners/new_partners/18.sixt.png" /></div>
