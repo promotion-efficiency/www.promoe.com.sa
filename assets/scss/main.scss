@@ -117,7 +117,7 @@ section#services {
 		color: white;
 		border: none;
 		border-radius: 1rem;
-        
+
 		&:hover {
 			background-color: lighten($new-blue-color, 2%);
 		}
@@ -130,7 +130,7 @@ section#services {
             object-fit: cover;
             filter:blur(3px);
         }
-        
+
         .content {
             position: absolute;
             top: 0;
@@ -158,7 +158,7 @@ section#services {
 		}
     }
 
-    
+
 
 
 }
@@ -230,10 +230,10 @@ section#partners{
         }
 
         .internal{
-            height:150px; 
-            margin-right:32px; 
-            padding:5px; 
-            width:250px; 
+            height:150px;
+            margin-right:32px;
+            padding:5px;
+            width:250px;
             color:black;
             background-color: white;
             border-radius: 0.5rem;
@@ -246,7 +246,7 @@ section#partners{
                 height: 100%;
             }
         }
-    }   
+    }
 }
 
 article {
@@ -270,7 +270,7 @@ table{
     tr:hover{
         background-color: rgba(0,0,0,0.05);
     }
-    
+
 
     thead{
         background-color: rgba(0,0,0,0.1);
@@ -290,7 +290,6 @@ table{
             &:nth-child(even){
                 background-color: rgba(0,0,0,0.05);
             }
-            
             td{
 
             }

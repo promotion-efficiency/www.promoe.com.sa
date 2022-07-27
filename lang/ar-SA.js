@@ -44,4 +44,10 @@ export default {
     businessidentities: 'هوية تجارية',
     photographyprojects: 'مشروع',
     happyclients: 'عميل سعيد',
+	clients: 'عميل',
+	socailmediaplans: 'خطة تواصل اجتماعي',
+	platforms: 'منصة مستخدمة',
+	brandcreation: 'انشاء علامة تجارية',
+	citiesreached: 'مدينة نخدم عملائنا فيها',
+	countries: 'دول',
   }

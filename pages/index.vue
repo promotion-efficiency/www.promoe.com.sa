@@ -37,7 +37,7 @@
 				currenciesAccepted: 'USD, SAR',
 				openingHours: ['Sa-Th 9:00-18:00'],
 				priceRange: '$$',
-				telephone: '+966 58 111 5550',
+				telephone: '+966 56 664 2220',
 				url: 'https://www.promoe.com.sa',
 				geo: {
 					'@type': 'GeoCoordinates',

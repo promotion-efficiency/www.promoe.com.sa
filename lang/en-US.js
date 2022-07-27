@@ -46,4 +46,10 @@ export default {
     businessidentities: 'Business Identities',
     photographyprojects: 'Photography Projects',
     happyclients: 'Happy Clients',
+	clients: 'Clients',
+	socailmediaplans: 'Social Media Plans',
+	platforms: 'Platforms',
+	brandcreation: 'Brand Creation',
+	citiesreached: 'Cities Reached',
+	countries: 'Countries',
   }

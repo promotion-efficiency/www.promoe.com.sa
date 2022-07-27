@@ -6,9 +6,8 @@
                 <div class="col">
                     <p class="lead">
                         {{ $t('AboutUsText') }}
-                        
                     </p>
-                    
+
                 </div>
                 <div class="col"><a :href="localePath('/pages/about')" class="btn btn-primary btn-lg text-uppercase">{{ $t('readmore') }}</a></div>
             </div>

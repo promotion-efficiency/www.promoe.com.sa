@@ -1,6 +1,6 @@
 <template>
 	<section id="services">
-		
+
 		<div class="container">
             <Title
 			:title="$t('Services')"
