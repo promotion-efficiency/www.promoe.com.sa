@@ -41,8 +41,8 @@
 				url: 'https://www.promoe.com.sa',
 				geo: {
 					'@type': 'GeoCoordinates',
-					latitude: '26.306422,',
-					longitude: '50.224354'
+					latitude: '26.3075213,',
+					longitude: '50.2243455'
 				},
 				aggregateRating: {
 					'@type': 'AggregateRating',
