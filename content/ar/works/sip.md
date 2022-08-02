@@ -1,6 +1,6 @@
 ---
 title: SIP
-description: 
+description: "هوية"
 featured_image: 'SIP.png'
 images: [
     "SIP/1.png", 
