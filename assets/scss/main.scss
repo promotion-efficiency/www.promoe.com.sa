@@ -121,6 +121,10 @@ section#services {
 		&:hover {
 			background-color: lighten($new-blue-color, 2%);
 		}
+
+		.card-title{
+			font-size: 1.25rem;
+		}
 	}
 
     .service{
@@ -155,6 +159,16 @@ section#services {
 
 			transition: all .3s;
 			z-index: 5;
+
+			
+		}
+
+		&:nth-child(2n):hover .content {
+			background-color: #874b2f;
+		}
+
+		&:nth-child(3n):hover .content {
+			background-color: #525;
 		}
     }
 
@@ -165,7 +179,7 @@ section#services {
 
 section#counters {
 	.number {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	h3 {

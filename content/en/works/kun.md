@@ -7,5 +7,5 @@ images: [ "Kun/1.png",
 "Kun/Artboard 6.png", "Kun/Artboard 7.png", "Kun/Artboard 8.png", 
 "Kun/Artboard 9.png"]
 client: "Kun"
-service: "Social Media Campaigns"
+service: "Marketing"
 ---

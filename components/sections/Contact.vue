@@ -17,7 +17,7 @@
 								</div>
 
 								<div class="col col-md-4 offset-md-1 pt-5">
-									<h4 class="fw-bold">{{ $t('orsimplyusethese') }}</h4>
+									<h3 class="fw-bold">{{ $t('orsimplyusethese') }}</h3>
 									<div class="contact-info ps-4">
 										<h6 class="mt-4"><i class="bi bi-phone"></i> {{ $t('phonenumber') }}:</h6>
 										<a dir="ltr" href="tel:+966-566642220">+966 56 664 2220</a>

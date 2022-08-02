@@ -1,7 +1,7 @@
 <template>
 	<section id="counters">
 		<div class="container">
-			<div class="row row-cols-1 row-cols-md-5 text-center">
+			<div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 text-center d-flex justify-content-center">
 				<OneCounter endVal="291" :text="$t('clients')" />
 				<OneCounter endVal="245" :text="$t('socailmediaplans')" />
 				<OneCounter endVal="13" :text="$t('platforms')" />

@@ -22,19 +22,28 @@
 							<p class="lead">{{ service.description }}</p>
 							<nuxt-content :document="service" />
 						</div>
-						<div v-if="works.length > 0" class="col col-xl-4">
-							<h4 class="fs-5 fw-bold">Sample works of {{ service.title }}</h4>
-							<div class="row row-cols-2 g-1">
-								<div v-for="work of works" :key="work.createdAt" class="work col bg-light">
-									<div class="ratio ratio-1x1">
-										<div class="d-flex justify-content-center align-items-center">
-											<a :href="localePath(`/works/${work.slug}`)">
-                                            <img class="contained-image" v-if="work.featured_image" :src="require(`~/assets/images/works/${work.featured_image}`)" :alt="work.title" />
-                                            </a>
+						<div v-if="works.length > 0 || service.featured_image" class="col col-xl-4">
+
+							<div v-if="service.featured_image" class="mb-5">
+								<img class="contained-image" :src="require(`~/assets/images/services/${service.featured_image}`)" :alt="service.title" />
+							</div>
+							<div v-if="works.length > 0">
+								<h4 class="fs-5 fw-bold">Sample works of {{ service.title }}</h4>
+								<div class="row row-cols-2 g-1">
+									
+									<!-- Featured Images of the related works -->
+									<div v-for="work of works" :key="work.createdAt" class="work col bg-light">
+										<div class="ratio ratio-1x1">
+											<div class="d-flex justify-content-center align-items-center">
+												<a :href="localePath(`/works/${work.slug}`)">
+												<img class="contained-image" v-if="work.featured_image" :src="require(`~/assets/images/works/${work.featured_image}`)" :alt="work.title" />
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+							
 						</div>
 					</div>
 				</article>

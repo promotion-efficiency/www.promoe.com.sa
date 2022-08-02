@@ -1,7 +1,7 @@
 <template>
 	<div class="col p-3 border-1">
 		<span class="number fw-bolder"><ICountUp :delay="delay" :endVal="parseInt(endVal)" :options="options" />+</span>
-		<h3 class="h5">{{ text }}</h3>
+		<h4 class="h5">{{ text }}</h4>
 	</div>
 </template>
 
