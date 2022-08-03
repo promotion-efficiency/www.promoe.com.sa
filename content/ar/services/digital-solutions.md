@@ -1,6 +1,6 @@
 ---
 title: تقنية المعلومات
-description: .تطوير مواقع الويب ، تصميم مواقع الويب وانشائها ، تطوير التطبيقات ، تحسين محركات البحث
+description: تطوير مواقع الويب ، تصميم مواقع الويب وانشائها ، تطوير التطبيقات ، تحسين محركات البحث.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'
 featured_image: 'digital-solutions.jpg'

@@ -2,9 +2,16 @@
 title: About us
 ---
 
+An integrated platform for marketing and adverstising solutions that startes from content creation to production and publication.
+Promotion Efficiency is an advertising agency from the heart of **Khobar** with Saudi talents that understand local business needs to reach the peak.
+
+<br /><br />
+
 ## Your hike to peak  
 
-An integrated marketing solutions team that offers all services starting from content creation to production to publication.
+An integrated marketing solutions team that offers all services starting from content creation to production and publication.
+
+<br /><br />
 
 ## Mission  
 

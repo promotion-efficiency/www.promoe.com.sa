@@ -61,7 +61,9 @@
 		},
 		head() {
 			return {
-				titleTemplate: null
+				title: this.$t('mainpage_title'),
+				titleTemplate: `${this.$t('title')} | %s`,
+				//titleTemplate: null
 			};
 		}
 	};

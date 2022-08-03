@@ -1,6 +1,7 @@
 export default {
     solgan: 'Your Hike to PEAK!',
     title: 'Promotion Efficiency',
+    mainpage_title: 'Best Advertising Agency in Khobar',
     description: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions',
     keywords: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design',
     copyrights: 'Promotion Efficiency Est. All right reserved. copyright 2021',
@@ -9,7 +10,7 @@ export default {
     Pages: 'Pages',
     AboutUs: 'About Us',
     AboutUsText: 'In an era where marketing is the battleground for brands today, \
-    Promotion Efﬁciency is a platform of skilled Saudis who are \
+    Promotion Efﬁciency is the best platform of skilled Saudis from Al-Khobar who are \
     equipped with ambition and creativity at the ﬁelds of marketing \
     and advertisement, which makes them create unusual, innovative, \
     and out-of-the-box marketing solutions that outperform current \

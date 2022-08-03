@@ -1,18 +1,18 @@
 <template>
-<default-layout>
-    <div>
-		<!-- header section -->
-		<Header />
+	<default-layout>
+		<div>
+			<!-- header section -->
+			<Header />
 
-		<nuxt />
+			<nuxt />
 
-		<!-- contact section -->
-		<SectionsContact :title="$t('contactus')" :subtitle="$t('contactussub')" class="py-5 mb-5" />
+			<!-- contact section -->
+			<SectionsContact :title="$t('contactus')" :subtitle="$t('contactussub')" class="py-5 mb-5" />
 
-		<!-- footer section -->
-		<Footer />
-	</div>
-</default-layout>
+			<!-- footer section -->
+			<Footer />
+		</div>
+	</default-layout>
 	
 </template>
 

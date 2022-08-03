@@ -1,6 +1,6 @@
 ---
 title: الخدمات الاستشارية
-description: .استشارات مالية ، استشارات تكنولوجيا المعلومات ، استشارات إدارية ، استشارات مبيعات ، استشارات تسويقية
+description: استشارات مالية ، استشارات تكنولوجيا المعلومات ، استشارات إدارية ، استشارات مبيعات ، استشارات تسويقية.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'
 featured_image: 'consultancy-services.png'
