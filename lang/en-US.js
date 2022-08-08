@@ -9,12 +9,11 @@ export default {
     Home: 'Home',
     Pages: 'Pages',
     AboutUs: 'About Us',
-    AboutUsText: 'In an era where marketing is the battleground for brands today, \
-    Promotion Efﬁciency is the best platform of skilled Saudis from Al-Khobar who are \
-    equipped with ambition and creativity at the ﬁelds of marketing \
-    and advertisement, which makes them create unusual, innovative, \
-    and out-of-the-box marketing solutions that outperform current \
-    conventional methods.',
+    AboutUsText: 'Ever since Promotion Efficiency was founded, we have made a mark in the \
+	marketing and advertising industry. With a rich history of successful \
+	campaigns and satisfied clients, we empower your business to grow with our \
+	creativity and innovative marketing solutions and smart technology. \
+	',
     Services: 'Services',
     thatourclientsenjoyed: 'WHAT OUR CLIENTS HAVE ENJOYED',
     Works: 'Works',
