@@ -17,14 +17,12 @@ export default {
 			{name: 'format-detection',content: 'telephone=no'},
 			{hid: 'author:text',name: 'author',content: 'Promotion Efficiency'},
 			{hid: 'author:file',name: 'author',type: 'text/plain',href: '/humans.txt'},
-			
             {hid: 'og:type',name: 'og:type',content: 'website'},
 			{hid: 'og:title',name: 'og:title',content: 'Promotion Efficiency'},
 			{hid: 'og:description',name: 'og:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
 			{hid: 'og:image',name: 'og:image',content: 'https://www.promoe.com.sa/assets/images/social_icon.png'},
 			{hid: 'og:url',name: 'og:url',content: 'https://www.promoe.com.sa'},
 			{hid: 'og:site_name',name: 'og:site_name',content: 'Promotion Efficiency'},
-			
             {hid: 'twitter:card',name: 'twitter:card',content: 'summary_large_image'},
 			{hid: 'twitter:title',name: 'twitter:title',content: 'Promotion Efficiency'},
 			{hid: 'twitter:description',name: 'twitter:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
@@ -39,7 +37,6 @@ export default {
             { hid:'icon:shortcut:x-icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
             { hid:'icon:svg', rel: 'icon', type: 'image/svg+xml', href: '/assets/images/logo.svg' },
             { hid:'icon:png', rel: 'icon', type: 'image/png', href: '/ssets/images/logo.png' },
-            
 		]
 	},
 
@@ -55,7 +52,10 @@ export default {
 		},
 		{
 			src: '~/plugins/jsonld'
-		}
+		},
+		{
+			src: '~/plugins/snaptr.js', mode: 'client' // Snapchat pixel tracking plugin
+		},
 	],
 
 	buildModules: [
@@ -64,7 +64,7 @@ export default {
 	],
 
 	modules: [
-		'@nuxt/content', 
+		'@nuxt/content',
         '@nuxtjs/i18n',
         '@nuxtjs/sitemap',
         '@nuxtjs/robots',
@@ -75,7 +75,7 @@ export default {
           UserAgent: '*',
           Disallow: ['/thanks','/ar/thanks', '/en/thanks']
         }
-    
+
       ],
 	components: true,
 

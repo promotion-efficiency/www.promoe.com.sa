@@ -28,7 +28,6 @@ export default {
             },
 			script: [
 				{type: 'text/javascript',src: 'https://webforms.pipedrive.com/f/loader'},
-				{type: 'text/javascript', innerHTML: `(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function(){a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};a.queue=[];var s='script';r=t.createElement(s);r.async=!0;r.src=n;var u=t.getElementsByTagName(s)[0];u.parentNode.insertBefore(r,u);})(window,document,'https://sc-static.net/scevent.min.js');snaptr('init', '2ebc6124-f6ff-48af-a473-ec29c8e14b65', {'user_email': '__INSERT_USER_EMAIL__'});snaptr('track', 'PAGE_VIEW');`}
 			],
             meta: [
                 {hid:'charset', charset: 'utf-8'},
@@ -38,14 +37,12 @@ export default {
                 {name: 'format-detection',content: 'telephone=no'},
                 { hid: 'author:text', name: 'author', content: 'Promotion Efficiency' },
                 { hid: 'author:file',name: 'author', type: 'text/plain', href: '/humans.txt' },
-
                 { hid: 'og:type', name: 'og:type', content: 'website' },
                 { hid: 'og:title', name: 'og:title', content: this.$t('title') },
                 { hid: 'og:description', name: 'og:description', content: this.$t('description') },
                 { hid: 'og:image', name: 'og:image', content: `${this.publicPath}/assets/images/social_icon.png` },
                 { hid: 'og:url', name: 'og:url', content: `${this.publicPath}` },
                 { hid: 'og:site_name', name: 'og:site_name', content: this.$t('title') },
-
                 { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
                 { hid: 'twitter:title', name: 'twitter:title', content: this.$t('title') },
                 { hid: 'twitter:description', name: 'twitter:description', content: this.$t('description') },
