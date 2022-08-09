@@ -3,7 +3,7 @@
     <nuxt v-if="!$slots.default" />
     <slot />
 
-	<a style="color: inherit; " href="https://api.whatsapp.com/send?phone=+966566642220&text=أرغب في بدء رحلتي للصعود الى القمة" class="float" target="_blank">
+	<a style="color: inherit;" href="https://api.whatsapp.com/send?phone=+966566642220&text=أرغب في بدء رحلتي للصعود الى القمة" class="layer_999 float" target="_blank">
 		<i class="fa fa-whatsapp my-float"></i>
 	</a>
   </div>
@@ -77,6 +77,7 @@ export default {
 <style>
 .float{
 	position:fixed;
+	z-index: 999;
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -87,7 +88,6 @@ export default {
 	text-align:center;
 	font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-	z-index:100;
 	text-decoration: none;
 }
 
