@@ -1,5 +1,7 @@
 ---
 title: تقنية المعلومات
+friendly_name: digital-solutions
+
 description: تطوير مواقع الويب ، تصميم مواقع الويب وانشائها ، تطوير التطبيقات ، تحسين محركات البحث.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

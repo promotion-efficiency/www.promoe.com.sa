@@ -9,7 +9,7 @@ images: [
     "Pastel/Artboard 11.png","Pastel/Artboard 12.png","Pastel/Artboard 13.png","Pastel/Artboard 14.png",
     "Pastel/Artboard 15.png","Pastel/Artboard 16.png"]
 client: "Pastel"
-service: "Marketing"
+service: "marketing"
 
 ---
 Pastel

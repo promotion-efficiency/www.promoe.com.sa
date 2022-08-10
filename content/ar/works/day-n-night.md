@@ -16,7 +16,7 @@ images: [
 	"Day-Night/Day & Night Brand Identity_Page_22.png", "Day-Night/Day & Night Brand Identity_Page_23.png"
 	]
 client: "DAY and NIGHT"
-service: "Creative Media Industry"
+service: "creative-media-industry"
 
 ---
 DAY and NIGHT

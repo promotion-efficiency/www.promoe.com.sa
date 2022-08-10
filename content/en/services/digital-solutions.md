@@ -1,5 +1,7 @@
 ---
 title: Digital Solutions
+friendly_name: digital-solutions
+
 description: Website Development, website design and installation, application developing, SEO.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

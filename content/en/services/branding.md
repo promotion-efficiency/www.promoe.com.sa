@@ -1,5 +1,7 @@
 ---
 title: Branding
+friendly_name: branding
+
 description: Social Media content, website content, scenario and script writing, company profile content, articles.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

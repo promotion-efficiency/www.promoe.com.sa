@@ -1,5 +1,7 @@
 ---
 title: Creative Media Industry
+friendly_name: creative-media-industry
+
 description: Identity creation, Identity enhancement, Brand visual application, Social media designs, Motion graphics.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#visual-identity'

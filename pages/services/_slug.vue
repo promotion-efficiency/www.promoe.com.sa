@@ -62,7 +62,7 @@
 		layout: 'article',
 		async asyncData({ $content, params, app }) {
 			const service = await $content(app.i18n.locale, 'services', params.slug).fetch();
-			const works = await $content(app.i18n.locale, 'works').where({ service: service.title }).fetch();
+			const works = await $content(app.i18n.locale, 'works').where({ service: service.friendly_name }).fetch();
 			return {
 				service,
 				works

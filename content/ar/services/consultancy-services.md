@@ -1,5 +1,7 @@
 ---
 title: الخدمات الاستشارية
+friendly_name: consultancy-services
+
 description: استشارات مالية ، استشارات تكنولوجيا المعلومات ، استشارات إدارية ، استشارات مبيعات ، استشارات تسويقية.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

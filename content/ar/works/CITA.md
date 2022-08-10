@@ -7,6 +7,6 @@ images: [
 	
 	]
 client: "Cita"
-service: "Branding"
+service: "branding"
 
 ---

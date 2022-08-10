@@ -1,5 +1,7 @@
 ---
 title: Marketing
+friendly_name: marketing
+
 description: marketing strategy, campaigns, social media management, Market   analysis, digital marketing, Branding.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

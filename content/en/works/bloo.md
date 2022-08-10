@@ -7,6 +7,6 @@ images: [
 	"bloo/Artboard 7.png", "bloo/Artboard 8.png", "bloo/Artboard 10.png","bloo/Artboard 12.png", "bloo/Artboard 13.png", "bloo/Artboard 14.png",
 	]
 client: "Bloo"
-service: "Marketing"
+service: "marketing"
 ---
 Bloo

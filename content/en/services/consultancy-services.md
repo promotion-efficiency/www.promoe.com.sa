@@ -1,5 +1,7 @@
 ---
 title: Consultancy Services
+friendly_name: consultancy-services
+
 description: Strategy Consulting, Financial Consulting, Information Technology Consulting, Management Consulting, Sales Consulting, Marketing Consulting.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

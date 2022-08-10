@@ -1,5 +1,7 @@
 ---
 title:  صناعة المحتوى الإبداعي
+friendly_name: creative-media-industry
+
 description: محتوى الوسائط الاجتماعية ، محتوى الموقع ، كتابة السيناريو ، محتوى الملف التعريفي للشركة ،  كتابة المقالات.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

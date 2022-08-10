@@ -20,7 +20,7 @@ images: [
 	 "Maiyar-Identity/Maiyar Identity_Page_31.png","Maiyar-Identity/Maiyar Identity_Page_32.png",
 	 "Maiyar-Identity/Maiyar Identity_Page_33.png", "Maiyar-Identity/Maiyar Identity_Page_34.png",]
 client: "Maiyar Identity"
-service: "Branding"
+service: "branding"
 
 ---
 Maiyar Identity

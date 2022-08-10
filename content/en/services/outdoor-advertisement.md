@@ -1,5 +1,7 @@
 ---
 title: Outdoor Advertisement
+friendly_name: outdoor-advertisement
+
 description: Advertising Screen, Mobil screens, Social media Adv, SEO.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

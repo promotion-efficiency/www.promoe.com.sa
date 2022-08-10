@@ -1,5 +1,6 @@
 ---
 title:  الإعلانات الخارجية 
+friendly_name: outdoor-advertisement
 
 description: شاشات إعلانية ,الشاحنة المتنقلة, الإعلان على منصات التواصل الاجتماعي, محرك تحسين البحث.
 icon: 'bi-rulers'

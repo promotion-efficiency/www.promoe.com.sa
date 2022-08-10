@@ -1,5 +1,7 @@
 ---
 title:  التسويق
+friendly_name: marketing
+
 description:  استراتيجية تسويقية, حملات ترويجية, ، إدارة وسائل التواصل الاجتماعي ، تحليل السوق ، التسويق الرقمي ، العلامات التجارية.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'

@@ -13,6 +13,6 @@ images: [
     "SIP/sip identity_Page_25.png","SIP/sip identity_Page_26.png","SIP/sip identity_Page_28.png","SIP/sip identity_Page_29.png",
     "SIP/sip identity_Page_30.png"]
 client: "SIP"
-service: "Branding"
+service: "branding"
 
 ---

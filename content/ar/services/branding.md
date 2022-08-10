@@ -1,5 +1,7 @@
 ---
 title: بناء العلامة التجارية
+friendly_name: branding
+
 description: استراتيجية العلامة التجارية، بناء وتحسين الهوية البصرية ، تطبيقات الهوية البصرية، تصميمات الوسائط الاجتماعية ، الرسومات المتحركة.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#visual-identity'
