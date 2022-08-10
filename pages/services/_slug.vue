@@ -18,14 +18,14 @@
 
 					<div class="row">
 						<div class="col">
-							<img v-if="service.image" loading="lazy" :src="require(`~/assets/images/services/${service.image}`)" :alt="service.title" />
+							<img v-if="service.image" loading="lazy" :src="`https://sixdegz.mo.cloudinary.net/promoe/assets/images/services/${service.image}`" :alt="service.title" />
 							<p class="lead">{{ service.description }}</p>
 							<nuxt-content :document="service" />
 						</div>
 						<div v-if="works.length > 0 || service.featured_image" class="col col-xl-4">
 
 							<div v-if="service.featured_image" class="mb-5">
-								<img class="contained-image" loading="lazy" :src="require(`~/assets/images/services/${service.featured_image}`)" :alt="service.title" />
+								<img class="contained-image" loading="lazy" :src="`https://sixdegz.mo.cloudinary.net/promoe/assets/images/services/${service.featured_image}`" :alt="service.title" />
 							</div>
 							<div v-if="works.length > 0">
 								<h4 class="fs-5 fw-bold">Sample works of {{ service.title }}</h4>
@@ -36,7 +36,7 @@
 										<div class="ratio ratio-1x1">
 											<div class="d-flex justify-content-center align-items-center">
 												<a :href="localePath(`/works/${work.slug}`)">
-												<img class="contained-image" v-if="work.featured_image" :src="require(`~/assets/images/works/${work.featured_image}`)" :alt="work.title" />
+												<img class="contained-image" v-if="work.featured_image" :src="`https://sixdegz.mo.cloudinary.net/promoe/assets/images/works/${work.featured_image}`" :alt="work.title" />
 												</a>
 											</div>
 										</div>
@@ -76,7 +76,7 @@
             
             if(this.works.length > 0){
                 this.works.forEach(element => {
-                    samples_of_work.push(this.publicPath + require(`~/assets/images/works/${element.featured_image}`));
+                    samples_of_work.push(`https://sixdegz.mo.cloudinary.net/promoe/assets/images/works/${element.featured_image}`);
                 });
                 
                 image_meta_og.name = 'og:image'
@@ -110,7 +110,7 @@
             let samples_of_work = [];
             if(this.works.length > 0){
                 this.works.forEach(element => {
-                    samples_of_work.push(this.publicPath + require(`~/assets/images/works/${element.featured_image}`));
+                    samples_of_work.push(`https://sixdegz.mo.cloudinary.net/promoe/assets/images/works/${element.featured_image}`);
                 });
             }
 			return {
