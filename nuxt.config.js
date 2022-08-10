@@ -76,7 +76,8 @@ export default {
           Disallow: ['/thanks','/ar/thanks', '/en/thanks']
         }
 
-      ],
+	],
+	
 	components: true,
 
 	build: {
@@ -84,6 +85,7 @@ export default {
 	},
 
 	generate: {
+		minify: false,
 		async routes() {
 			const {
 				$content
@@ -101,6 +103,10 @@ export default {
 		baseUrl: process.env.BASE_URL || 'http://localhost:3000'
 	},
 
+	router: {
+		trailingSlash: true,
+	},
+	
 
 	i18n: {
 		strategy: 'prefix',
