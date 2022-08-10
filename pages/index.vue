@@ -26,6 +26,7 @@
 		async asyncData({ $content, app }) {
 			const works = await $content(app.i18n.locale, 'works').fetch();
 			const services = await $content(app.i18n.locale, 'services').fetch();
+			console.log(services);
 			return { works, services };
 		},
 		jsonld() {

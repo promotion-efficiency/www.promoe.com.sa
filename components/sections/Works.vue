@@ -9,7 +9,8 @@
                 :key="localePath(work.path)" 
                 :title="work.title" 
                 :image="work.featured_image" 
-                :link="localePath(work.path)" />
+                :link="`${localePath(work.path)}/`"
+                />
             </div>
             
         </div>

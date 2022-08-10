@@ -17,7 +17,7 @@
 
 					<ul class="navbar-nav me-auto nav nav-pills fw-bold order-md-1 text-center gap-3">
                         <li class="nav-item">
-							<a :href="localePath('/')" class="nav-link">{{ $t('Home') }}</a>
+							<a :href="`${localePath('/')}/`" class="nav-link">{{ $t('Home') }}</a>
 						</li>
 						<li class="nav-item">
 							<a :href="localePath('/#about')" class="nav-link">{{ $t('About') }}</a>
@@ -35,8 +35,8 @@
 							<a href="#contact" class="btn btn-sm btn-primary px-4">{{ $t('contactus') }}</a>
 						</li>
 						<li class="nav-item mb-3 mb-md-0 mx-md-3">
-                            <nuxt-link class="btn btn-sm btn-light px-2" v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">English</nuxt-link>
-                            <nuxt-link class="btn btn-sm btn-light px-2" v-if="$i18n.locale !== 'ar'" :to="switchLocalePath('ar')">عربي</nuxt-link>
+                            <nuxt-link class="btn btn-sm btn-light px-2" v-if="$i18n.locale !== 'en'" :to="`${switchLocalePath('en')}/`">English</nuxt-link>
+                            <nuxt-link class="btn btn-sm btn-light px-2" v-if="$i18n.locale !== 'ar'" :to="`${switchLocalePath('ar')}/`">عربي</nuxt-link>
 						</li>
 						<li class="nav-item" @click="toggleDarkMode()">
 							<a v-if="(this.$colorMode['value'] == 'dark')" class="btn btn-sm btn-light px-2"><i class="bi bi-brightness-high-fill"></i></a>

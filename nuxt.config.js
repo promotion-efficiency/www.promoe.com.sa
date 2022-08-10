@@ -133,6 +133,7 @@ export default {
         hostname: "https://www.promoe.com.sa",
         gzip: true,
         i18n: true,
+		trailingSlash: true,
         // nuxt-i18n notation (advanced)
         i18n: {
             locales: ['en', 'ar'],

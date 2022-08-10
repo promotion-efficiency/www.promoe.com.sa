@@ -15,7 +15,7 @@
 					:title="service.title"
                     :image="service.featured_image"
 					:description="service.description"
-                    :link="localePath(service.path)"
+                    :link="`${localePath(service.path)}/`"
 				/>
 			</div>
 		</div>
