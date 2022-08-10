@@ -85,7 +85,7 @@ export default {
 	},
 
 	generate: {
-		minify: false,
+		//minify: false,
 		async routes() {
 			const {
 				$content
