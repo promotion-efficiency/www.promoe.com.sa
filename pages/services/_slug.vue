@@ -18,14 +18,14 @@
 
 					<div class="row">
 						<div class="col">
-							<img v-if="service.image" :src="require(`~/assets/images/services/${service.image}`)" :alt="service.title" />
+							<img v-if="service.image" loading="lazy" :src="require(`~/assets/images/services/${service.image}`)" :alt="service.title" />
 							<p class="lead">{{ service.description }}</p>
 							<nuxt-content :document="service" />
 						</div>
 						<div v-if="works.length > 0 || service.featured_image" class="col col-xl-4">
 
 							<div v-if="service.featured_image" class="mb-5">
-								<img class="contained-image" :src="require(`~/assets/images/services/${service.featured_image}`)" :alt="service.title" />
+								<img class="contained-image" loading="lazy" :src="require(`~/assets/images/services/${service.featured_image}`)" :alt="service.title" />
 							</div>
 							<div v-if="works.length > 0">
 								<h4 class="fs-5 fw-bold">Sample works of {{ service.title }}</h4>

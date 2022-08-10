@@ -14,13 +14,13 @@
 		<h1 class="pb-3 border-bottom mb-3">{{ works.title }}</h1>
 
 		<div class="row row-cols-1 row-cols-md-2">
-			<div v-if="works.featured_image" class="col-md-4"><img class="contained-image" style="height:auto;" :src="require(`~/assets/images/works/${works.featured_image}`)" :alt="works.title" /></div>
+			<div v-if="works.featured_image" class="col-md-4"><img class="contained-image" loading="lazy" style="height:auto;" :src="require(`~/assets/images/works/${works.featured_image}`)" :alt="works.title" /></div>
 			<div v-if="works.images" class="col col-md-8">
 				<div class="row row-cols-4 g-1">
 					<div v-for="sample of works.images" :key="sample" class="work col bg-light">
 						<div class="ratio ratio-1x1">
 							<div class="d-flex justify-content-center align-items-center">
-								<img class="contained-image" v-if="sample" :src="require(`~/assets/images/works/${sample}`)" :alt="sample" />
+								<img class="contained-image" loading="lazy" v-if="sample" :src="require(`~/assets/images/works/${sample}`)" :alt="sample" />
 							</div>
 						</div>
 					</div>

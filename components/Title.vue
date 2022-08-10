@@ -1,6 +1,6 @@
 <template>
 	<div class="heading py-4 text-center w-100 w-md-75 mx-auto">
-		<img v-if="divider" :src="require(`~/assets/images/${is_it_dark}.png`)" height="100" alt="heading decorator" />
+		<img v-if="divider" img loading="lazy" :src="require(`~/assets/images/${is_it_dark}.png`)" height="100" alt="heading decorator" />
 		<h2 class="display-6 fw-bold mt-1">{{ title }}</h2>
 		<p v-if="subtitle" class="lead mb-2">{{ subtitle }}</p>
 	</div>
