@@ -36,7 +36,7 @@ export default {
             { hid:'icon:x-icon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             { hid:'icon:shortcut:x-icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
             { hid:'icon:svg', rel: 'icon', type: 'image/svg+xml', href: '/assets/images/logo.svg' },
-            { hid:'icon:png', rel: 'icon', type: 'image/png', href: '/ssets/images/logo.png' },
+            { hid:'icon:png', rel: 'icon', type: 'image/png', href: '/assets/images/logo.png' },
 		]
 	},
 
