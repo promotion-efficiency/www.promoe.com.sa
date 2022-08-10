@@ -140,6 +140,8 @@ export default {
         gzip: true,
         i18n: true,
 		trailingSlash: true,
+		exclude: ['/'],
+
         // nuxt-i18n notation (advanced)
         i18n: {
             locales: ['en', 'ar'],
