@@ -25,7 +25,7 @@ jobs:
       # Install and build NuxtJs website
       - name: Build NuxtJS website
         env:
-          BASE_URL: "http://www.promoe.com.sa/"
+          BASE_URL: "http://www.promoe.com.sa"
         run: |
           npm install 
           npm run generate
