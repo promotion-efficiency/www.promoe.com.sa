@@ -28,6 +28,7 @@ export default {
             },
 			script: [
 				{type: 'text/javascript',src: 'https://webforms.pipedrive.com/f/loader'},
+				{type: 'text/javascript',src: 'https://www.facebook.com/tr?id=588162316234043&ev=PageView&noscript=1'},
 			],
             meta: [
                 {hid:'charset', charset: 'utf-8'},

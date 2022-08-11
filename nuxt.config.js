@@ -56,6 +56,9 @@ export default {
 		{
 			src: '~/plugins/snaptr.js', mode: 'client' // Snapchat pixel tracking plugin
 		},
+		{
+			src: '~/plugins/facebook.js', mode: 'client'
+		},
 	],
 
 	buildModules: [
@@ -77,7 +80,7 @@ export default {
         }
 
 	],
-	
+
 	components: true,
 
 	build: {
@@ -106,7 +109,7 @@ export default {
 	router: {
 		trailingSlash: true,
 	},
-	
+
 
 	i18n: {
 		strategy: 'prefix',
