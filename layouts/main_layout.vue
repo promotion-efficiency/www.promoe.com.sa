@@ -51,6 +51,7 @@ export default {
                 { hid: 'twitter:url', name: 'twitter:url', content: `${this.publicPath}` },
                 { hid: 'twitter:site', name: 'twitter:site', content: '@promoefficiency' },
                 { hid: 'twitter:creator', name: 'twitter:creator', content: '@promoefficiency' },
+                { hid: 'google-site-verification', name:'google-site-verification', content: 'RevNHAr-IfmQDdOeeiyeQy6hVmf7CB8pRF8Zx1qo5G8'},
 
                 ...i18nHead.meta
 
