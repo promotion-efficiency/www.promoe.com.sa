@@ -68,14 +68,13 @@ section#hero {
 	}
 
 	.layer {
-		background-size: cover;
-		background-position: top;
+
 		width: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
 		bottom: 0;
-		background-repeat: no-repeat;
+
 	}
 
 	.layer_1 {
@@ -89,7 +88,6 @@ section#hero {
 	.layer_3 {
 		z-index: 3;
 		width: 200%;
-		background-size: cover;
 		animation: movingclouds 25s linear infinite;
 		-webkit-animation: movingclouds 25s linear infinite;
 		-moz-animation: movingclouds 25s linear infinite;

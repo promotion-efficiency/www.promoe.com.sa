@@ -26,7 +26,6 @@
 		async asyncData({ $content, app }) {
 			const works = await $content(app.i18n.locale, 'works').fetch();
 			const services = await $content(app.i18n.locale, 'services').fetch();
-			console.log(services);
 			return { works, services };
 		},
 		jsonld() {
@@ -65,6 +64,13 @@
 				title: this.$t('mainpage_title'),
 				titleTemplate: `${this.$t('title')} | %s`,
 				//titleTemplate: null
+				link: [
+					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/layer_5.webp' },
+					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/front_mountain.webp' },
+					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/clouds_2.webp' },
+					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/logo.webp' },
+					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/back_mountains.webp' },
+				]
 			};
 		}
 	};

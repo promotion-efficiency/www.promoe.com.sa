@@ -89,7 +89,6 @@
             }
 
             const that = this;
-            console.log(this.service);
 			return {
 				title: that.service.title,
 				meta: [

@@ -3,7 +3,7 @@
 		<div class="container py-3 py-md-5">
 			<div class="row row-cols-1">
 				<div class="col text-center text-md-start mb-5 mb-md-0">
-					<img src="~/assets/images/white-logo.png" height="100" />
+					<img alt="white-logo" src="~/assets/images/white-logo.png" width="100" height="100" />
 					<h3 class="fw-light my-4">{{ $t('solgan') }}</h3>
 					<ul class="list-inline fw-light fs-4 px-0">
 						<li class="list-inline-item mx-0"><a class="text-white" href="https://instagram.com/promoefficiency"><i class="bi bi-instagram"></i></a></li>
