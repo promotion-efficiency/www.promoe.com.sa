@@ -63,11 +63,6 @@ export default {
                 { hid:'icon:svg', rel: 'icon', type: 'image/svg+xml', href: '/assets/images/logo.svg' },
                 { hid:'icon:png', rel: 'icon', type: 'image/png', href: '/assets/images/logo.png' },
 
-
-				// do not forget to remote the font awesome.css from the head
-				{rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'},
-
-
                 ...i18nHead.link
             ]
         }
