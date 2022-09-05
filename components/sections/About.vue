@@ -6,7 +6,7 @@
                 <div class="col">
                     <p class="lead" v-html="$t('AboutUsText')"></p>
                 </div>
-                <div class="col"><a :href="`${localePath('/pages/about')}/`" class="btn btn-primary btn-lg text-uppercase">{{ $t('readmore') }}</a></div>
+                <div class="col"><a :href="`${localePath('/pages/about')}`" class="btn btn-primary btn-lg text-uppercase">{{ $t('readmore') }}</a></div>
             </div>
         </div>
     </section>
