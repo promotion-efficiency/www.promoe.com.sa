@@ -30,7 +30,7 @@
 							<div v-if="works.length > 0">
 								<h4 class="fs-5 fw-bold">Sample works of {{ service.title }}</h4>
 								<div class="row row-cols-2 g-1">
-									
+
 									<!-- Featured Images of the related works -->
 									<div v-for="work of works" :key="work.createdAt" class="work col bg-light">
 										<div class="ratio ratio-1x1">
@@ -43,7 +43,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</article>
@@ -60,6 +60,10 @@
 	import PackageCallout from '../../components/PackageCallout.vue';
 	export default {
 		layout: 'article',
+		// TODO:: remove this when PE adjust the prices.
+		mounted(){
+			this.$router.push('/maintenance/')
+		},
 		async asyncData({ $content, params, app }) {
 			const service = await $content(app.i18n.locale, 'services', params.slug).fetch();
 			const works = await $content(app.i18n.locale, 'works').where({ service: service.friendly_name }).fetch();
@@ -73,16 +77,13 @@
             let samples_of_work = [];
             let image_meta_og = {};
             let image_meta_twitter = {};
-            
             if(this.works.length > 0){
                 this.works.forEach(element => {
                     samples_of_work.push(`https://sixdegz.mo.cloudinary.net/promoe/assets/images/works/${element.featured_image}`);
                 });
-                
                 image_meta_og.name = 'og:image'
                 image_meta_og.hid = 'og:image'
                 image_meta_og.content = samples_of_work[0];
-                
                 image_meta_twitter.name = 'twitter:image'
                 image_meta_twitter.hid = 'twitter:image'
                 image_meta_twitter.content = samples_of_work[0];
@@ -118,7 +119,7 @@
                 serviceType: this.service.title,
                 name: this.service.title,
                 description: this.service.description,
-                image: samples_of_work,       
+                image: samples_of_work,
 			};
 		},
         data() {

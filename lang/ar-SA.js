@@ -47,4 +47,6 @@ export default {
 	brandcreation: 'انشاء علامة تجارية',
 	citiesreached: 'مدينة نخدم عملائنا فيها',
 	countries: 'دول',
+	pageUnderMaintenance: 'عذراً، الصفحة تحت الصيانة',
+	pageUnderMaintenanceDescription: 'الرجاء المحاولة لاحقاً'
   }

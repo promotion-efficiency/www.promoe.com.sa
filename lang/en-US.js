@@ -52,4 +52,6 @@ export default {
 	brandcreation: 'Brand Creation',
 	citiesreached: 'Cities Reached',
 	countries: 'Countries',
+	pageUnderMaintenance: 'Sorry, the page is under maintenance',
+	pageUnderMaintenanceDescription: 'Please, try again later.'
   }
