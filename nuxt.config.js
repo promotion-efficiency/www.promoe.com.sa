@@ -30,7 +30,6 @@ export default {
 			{hid: 'twitter:url',name: 'twitter:url',content: 'https://www.promoe.com.sa'},
 			{hid: 'twitter:site',name: 'twitter:site',content: '@promoefficiency'},
 			{hid: 'twitter:creator',name: 'twitter:creator',content: '@promoefficiency'},
-			{hid: 'google-site-verification',name: 'google-site-verification',content: 'a5JxQriDswLwSNG3T107jVLQn8t71-hkq9U3loEhwcs'},
 		],
 		link: [
             { hid:'icon:normal', rel: 'icon', href: '/favicon.ico' },
