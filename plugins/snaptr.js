@@ -5,7 +5,7 @@
 	u.parentNode.insertBefore(r,u);})(window,document,
 	'https://sc-static.net/scevent.min.js');
 
-	snaptr('init', '44cc5854-a33f-4fb0-a393-f3d69a387359', {
+	snaptr('init', '48fab316-4064-4198-8321-c0fa7678dff0', {
 	'user_email': 'contact@promoe.com.sa'
 	});
 
