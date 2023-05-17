@@ -73,7 +73,13 @@ export default {
         '@nuxtjs/i18n',
         '@nuxtjs/sitemap',
         '@nuxtjs/robots',
+		'@nuxtjs/gtm',
 	],
+
+	gtm: {
+		id: 'GTM-TWB3BDQ',
+		enabled: true
+	},
 
     robots: [
         {
