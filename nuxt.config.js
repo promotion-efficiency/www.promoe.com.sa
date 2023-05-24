@@ -61,6 +61,7 @@ export default {
 		{
 			src: '~/plugins/facebook.js', mode: 'client'
 		},
+		{ src: '~/plugins/gtag-conversion.js', mode: 'client' },
 	],
 
 	buildModules: [
@@ -74,6 +75,7 @@ export default {
         '@nuxtjs/sitemap',
         '@nuxtjs/robots',
 		'@nuxtjs/gtm',
+		'@nuxtjs/google-gtag'
 	],
 
 	gtm: {
