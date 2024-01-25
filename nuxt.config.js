@@ -62,6 +62,7 @@ export default {
 			src: '~/plugins/facebook.js', mode: 'client'
 		},
 		{ src: '~/plugins/gtag-conversion.js', mode: 'client' },
+		{ src: '~/plugins/google-analytics.js', mode: 'client' }
 	],
 
 	buildModules: [
