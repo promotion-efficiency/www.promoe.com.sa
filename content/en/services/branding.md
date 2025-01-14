@@ -2,26 +2,20 @@
 title: Branding
 friendly_name: branding
 
-description: Social Media content, website content, scenario and script writing, company profile content, articles.
+description: We create tailored strategies with innovative designs and storytelling to elevate your brand and ensure success.
 icon: 'bi-rulers'
 packages_link: '/pages/packages/#social-media-campaigns'
-featured_image: 'branding.png'
+featured_image: 'abis.png'
 ---
 We help you build an integrated and sustainable brand
 
-The Promotion Efficiency team organizes internal workshops to analyze the target audience and market data and then come up with a brand strategy that includes (brand name, vision, Mission, goals, values, brand persona, tagline) and transform it into an interactive visual identity that includes many Elements such as (logo, fonts and colors, decorations and patterns, identity applications).
+At Promotion Efficiency, our expertise in brand excellence is a strategic cornerstone of our ascent to success. We begin the process by crafting a tailored strategy that aligns with your vision, using innovative designs and compelling storytelling to effectively continue your brand’s narrative. Our structured approach ensures that every step we take contributes to enhancing your brand’s position, propelling it to the pinnacle of success in a competitive landscape.
 
-- Brand Building
-- Brand Improvement
-- Visual Identity
+
+- **Brand Building:** We specialize in studying the brand market and developing customized strategies to create, promote and achieve its goals in the market, ensuring long-term success and recognition..
+- **Brand Enhancement:** Elevate your brand’s image and reputation with our professional expertise and innovative solutions designed specifically to meet your unique needs.
+- **Visual Identity:** From logos to brand guidelines, we create visually appealing elements that encapsulate the essence of your brand and leave a lasting impression.
+
 
 <br>
 
-## Branding
-
-|            **Package 1**           |             **Package 2**             |               **Package 3**              |
-|:-----------------------------------:|:-------------------------------------:|:----------------------------------------:|
-| <ul style="list-style-type: none"><li>Building an integrated brand</li><li>Brand Strategy </li><li> visual identity  </li><li> 6 Identity applications  </li></ul>  |    <ul style="list-style-type: none"><li>Building a visual identity</li><li> Logo   </li><li> visual elements </li><li> 3 Identity applications  </li></ul>         |       <ul style="list-style-type: none"><li>Brand Improvement </li><li>Improve brand strategy </li><li>  Improving visual identity</li><li> visual elements </li></ul>       
-|          Price: 24150  SAR          |           Price: 8395  SAR            |             Price: 8050  SAR             | 
-
-<br> 
