@@ -9,11 +9,7 @@ export default {
     Home: 'Home',
     Pages: 'Pages',
     AboutUs: 'About Us',
-    AboutUsText: 'Ever since Promotion Efficiency was founded, we have made a mark in the \
-	marketing and advertising industry. With a rich history of successful \
-	campaigns and satisfied clients, we empower your business to grow with our \
-	creativity and innovative marketing solutions and smart technology. \
-	',
+    AboutUsText: 'Promotion Efficiency is a leading advertising agency based in Khobar, specializing in providing comprehensive marketing solutions. Our expert  team has a deep understanding of business needs, helping you achieve unparalleled success.',
     Services: 'Services',
     thatourclientsenjoyed: 'WHAT OUR CLIENTS HAVE ENJOYED',
     Works: 'Works',
