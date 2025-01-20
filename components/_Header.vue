@@ -20,11 +20,12 @@
 						<li class="nav-item"><a :href="localePath('/#about')" class="nav-link">{{ $t('About') }}</a></li>
 						<li class="nav-item"><a :href="localePath('/#services')" class="nav-link">{{ $t('Services') }}</a></li>
 						<li class="nav-item"><a :href="localePath('/#works')" class="nav-link">{{ $t('Works') }}</a></li>
+						
 					</ul>
 
 					<ul class="navbar-nav nav nav-pills ms-auto justify-content-end order-md-3 text-center mt-3 mt-md-0">
 						<li class="nav-item mb-3 mb-md-0">
-							<a :href="localePath('/#contact')" class="btn btn-sm btn-primary px-4">{{ $t('contactus') }}</a>
+							<a :href="localePath('/contact')" class="btn btn-sm btn-primary px-4">{{ $t('contactus') }}</a>
 						</li>
 						<li class="nav-item mb-3 mb-md-0 mx-md-3">
                             <nuxt-link href="#" class="btn btn-sm btn-light px-2" v-if="$i18n.locale !== 'en'" :to="`${switchLocalePath('en')}`">English</nuxt-link>

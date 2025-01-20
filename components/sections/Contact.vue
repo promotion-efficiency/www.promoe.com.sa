@@ -20,13 +20,28 @@
 									<h3 class="fw-bold">{{ $t('orsimplyusethese') }}</h3>
 									<div class="contact-info ps-4">
 										<h6 class="mt-4"><i class="bi bi-phone"></i> {{ $t('phonenumber') }}:</h6>
-										<a @click="trackPhoneNumberClick">+966 56 664 2220</a>
-										<!-- <a dir="ltr" href="tel:+966-566642220">+966 56 664 2220</a> -->
+										<a 
+											dir="ltr" 
+											href="tel:+966566642220" 
+											@click="trackPhoneNumberClick"
+											class="text-decoration-none text-dark">
+											+966 56 664 2220
+										</a>
 										<h6 class="mt-4"><i class="bi bi-envelope"></i> {{ $t('emailaddress') }}:</h6>
-										<a  dir="ltr" href="mailto:contact@promoe.com.sa">contact@promoe.com.sa</a>
+										<a 
+											dir="ltr" 
+											href="mailto:contact@promoe.com.sa" 
+											class="text-decoration-none text-dark">
+											contact@promoe.com.sa
+										</a>
 										<h6 class="mt-4"><i class="bi bi-globe"></i> {{ $t('address') }}:</h6>
-                                        <p v-html="$t('address_details')"></p>
-										<iframe class="w-100" src="https://snazzymaps.com/embed/281438" height="300px" style="border: none"></iframe>
+										<p v-html="$t('address_details')"></p>
+										<iframe 
+											class="w-100" 
+											src="https://snazzymaps.com/embed/281438" 
+											height="300px" 
+											style="border: none">
+										</iframe>
 									</div>
 								</div>
 							</div>
@@ -56,6 +71,5 @@
 </script>
 
 <style>
+/* Add your custom styles here */
 </style>
-
-

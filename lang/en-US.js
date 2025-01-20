@@ -49,5 +49,6 @@ export default {
 	citiesreached: 'Cities Reached',
 	countries: 'Countries',
 	pageUnderMaintenance: 'Sorry, the page is under maintenance',
-	pageUnderMaintenanceDescription: 'Please, try again later.'
+	pageUnderMaintenanceDescription: 'Please, try again later.',
+  contacts:'Contact Us'
   }

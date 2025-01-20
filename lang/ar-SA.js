@@ -48,5 +48,6 @@ export default {
 	citiesreached: 'مدينة نخدم عملائنا فيها',
 	countries: 'دول',
 	pageUnderMaintenance: 'عذراً، الصفحة تحت الصيانة',
-	pageUnderMaintenanceDescription: 'الرجاء المحاولة لاحقاً'
+	pageUnderMaintenanceDescription: 'الرجاء المحاولة لاحقاً',
+   contacts:'تواصل معنا'
   }
