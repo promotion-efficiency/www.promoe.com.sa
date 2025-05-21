@@ -9,53 +9,118 @@ export default {
 			lang: 'en',
 		},
 		meta: [
-            {hid:'charset', charset: 'utf-8'},
-            {name:"theme-color",content:"#006999"},
-			{name: 'viewport',content: 'width=device-width, initial-scale=1'},
-			{hid: 'description',name: 'description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions'},
-			{hid: 'keywords',name: 'keywords',content: 'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design'},
-			{name: 'format-detection',content: 'telephone=no'},
-			{hid: 'author:text',name: 'author',content: 'Promotion Efficiency'},
-			{hid: 'author:file',name: 'author',type: 'text/plain',href: '/humans.txt'},
-            {hid: 'og:type',name: 'og:type',content: 'website'},
-			{hid: 'og:title',name: 'og:title',content: 'Promotion Efficiency'},
-			{hid: 'og:description',name: 'og:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
-			{hid: 'og:image',name: 'og:image',content: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/social_icon.png'},
-			{hid: 'og:url',name: 'og:url',content: 'https://www.promoe.com.sa'},
-			{hid: 'og:site_name',name: 'og:site_name',content: 'Promotion Efficiency'},
-            {hid: 'twitter:card',name: 'twitter:card',content: 'summary_large_image'},
-			{hid: 'twitter:title',name: 'twitter:title',content: 'Promotion Efficiency'},
-			{hid: 'twitter:description',name: 'twitter:description',content: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement'},
-			{hid: 'twitter:image',name: 'twitter:image',content: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/social_icon.png'},
-			{hid: 'twitter:url',name: 'twitter:url',content: 'https://www.promoe.com.sa'},
-			{hid: 'twitter:site',name: 'twitter:site',content: '@promoefficiency'},
-			{hid: 'twitter:creator',name: 'twitter:creator',content: '@promoefficiency'},
+			{ hid: 'charset', charset: 'utf-8' },
+			{ name: 'theme-color', content: '#006999' },
+			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+			{
+				hid: 'description',
+				name: 'description',
+				content:
+					'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement, which makes them create unusual, innovative and out-of-the-box marketing solutions',
+			},
+			{
+				hid: 'keywords',
+				name: 'keywords',
+				content:
+					'promotion, efficiency, advertisement, marketing, khobar, eastern, research, design, photography, videography, hike to peak, websites, instagram marketing, snapchat marketing, field marketing, print design',
+			},
+			{ name: 'format-detection', content: 'telephone=no' },
+			{ hid: 'author:text', name: 'author', content: 'Promotion Efficiency' },
+			{ hid: 'author:file', name: 'author', type: 'text/plain', href: '/humans.txt' },
+			{ hid: 'og:type', name: 'og:type', content: 'website' },
+			{ hid: 'og:title', name: 'og:title', content: 'Promotion Efficiency' },
+			{
+				hid: 'og:description',
+				name: 'og:description',
+				content:
+					'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement',
+			},
+			{
+				hid: 'og:image',
+				name: 'og:image',
+				content: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/social_icon.png',
+			},
+			{ hid: 'og:url', name: 'og:url', content: 'https://www.promoe.com.sa' },
+			{ hid: 'og:site_name', name: 'og:site_name', content: 'Promotion Efficiency' },
+			{ hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+			{ hid: 'twitter:title', name: 'twitter:title', content: 'Promotion Efficiency' },
+			{
+				hid: 'twitter:description',
+				name: 'twitter:description',
+				content:
+					'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement',
+			},
+			{
+				hid: 'twitter:image',
+				name: 'twitter:image',
+				content: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/social_icon.png',
+			},
+			{ hid: 'twitter:url', name: 'twitter:url', content: 'https://www.promoe.com.sa' },
+			{ hid: 'twitter:site', name: 'twitter:site', content: '@promoefficiency' },
+			{ hid: 'twitter:creator', name: 'twitter:creator', content: '@promoefficiency' },
 		],
 		link: [
-            { hid:'icon:normal', rel: 'icon', href: '/favicon.ico' },
-            { hid:'icon:x-icon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { hid:'icon:shortcut:x-icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { hid:'icon:svg', rel: 'icon', type: 'image/svg+xml', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/logo.svg' },
-            { hid:'icon:png', rel: 'icon', type: 'image/png', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/logo.png' },
+			{ hid: 'icon:normal', rel: 'icon', href: '/favicon.ico' },
+			{ hid: 'icon:x-icon', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ hid: 'icon:shortcut:x-icon', rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ hid: 'icon:svg', rel: 'icon', type: 'image/svg+xml', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/logo.svg' },
+			{ hid: 'icon:png', rel: 'icon', type: 'image/png', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/logo.png' },
 			{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/logo.png' },
 			{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/white-logo.png' },
 		],
 		script: [
 			{
-			  hid: 'gtm-init',
-			  innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				hid: 'gtm-init',
+				innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			  })(window,document,'script','dataLayer','GTM-KSTNS9NQ');`,
-			  type: 'text/javascript',
-			  charset: 'utf-8'
+				})(window,document,'script','dataLayer','GTM-KSTNS9NQ');`,
+				type: 'text/javascript',
+				charset: 'utf-8',
+			},
+			{
+				hid: 'tiktok-pixel',
+				innerHTML: `!function (w, d, t) {
+					w.TiktokAnalyticsObject = t;
+					var ttq = w[t] = w[t] || [];
+					ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
+					ttq.setAndDefer = function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+					for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+					ttq.instance = function(t) {
+						for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+						return e;
+					};
+					ttq.load = function(e,n) {
+						var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+						var o = n && n.partner;
+						ttq._i = ttq._i || {};
+						ttq._i[e] = [];
+						ttq._i[e]._u = r;
+						ttq._t = ttq._t || {};
+						ttq._t[e] = +new Date;
+						ttq._o = ttq._o || {};
+						ttq._o[e] = n || {};
+						var scriptEl = d.createElement("script");
+						scriptEl.type = "text/javascript";
+						scriptEl.async = true;
+						scriptEl.src = r + "?sdkid=" + e + "&lib=" + t;
+						var firstScript = d.getElementsByTagName("script")[0];
+						firstScript.parentNode.insertBefore(scriptEl, firstScript);
+					};
+					ttq.load("D0M41UJC77U0TEM7BVH0");
+					ttq.page();
+				}(window, document, "ttq");`,
+				type: 'text/javascript',
+				charset: 'utf-8',
 			}
-		  ],
-		  __dangerouslyDisableSanitizersByTagID: {
-			'gtm-init': ['innerHTML']
-		  }
+		],
+		__dangerouslyDisableSanitizersByTagID: {
+			'gtm-init': ['innerHTML'],
+			'tiktok-pixel': ['innerHTML']
+		}
 	},
+	
 
 	css: [
 		'~/assets/scss/main.scss'
