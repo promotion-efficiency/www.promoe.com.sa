@@ -16,6 +16,9 @@
 
 					</ul>
 					<p class="text-white-50">{{ $t('copyrights') }}</p>
+					<p class="mt-3">
+						<nuxt-link class="text-white-50 me-3" :to="localePath({ name: 'pages-slug', params: { slug: 'privacy-policy' } })">{{ $i18n.locale === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy' }}</nuxt-link>
+					</p>
 				</div>
 			</div>
 		</div>
