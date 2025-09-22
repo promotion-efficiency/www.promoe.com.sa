@@ -3,7 +3,7 @@
     <nuxt v-if="!$slots.default" />
     <slot />
 
-	<a style="color: inherit;" href="https://api.whatsapp.com/send?phone=+966566642220&text=أرغب في بدء رحلتي للصعود الى القمة" class="layer_999 float d-flex align-items-center justify-content-center" target="_blank">
+	<a style="color: inherit;" href="https://wa.me/966566642220" class="layer_999 float d-flex align-items-center justify-content-center" target="_blank">
 		<i class="bi text-white bi-whatsapp my-float"></i>
 	</a>
   </div>

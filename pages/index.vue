@@ -1,77 +1,108 @@
 <template>
-	<div class="">
-		<!-- hero section -->
-		<SectionsHero class="" />
-
-		<!-- about section -->
-		<SectionsAbout class="py-5 mb-5 bg-light" />
-
-		<!-- services section -->
-		<SectionsServices :services="services" class="py-5 mb-5" />
-
-		<!-- counters section -->
-		<SectionsCounters class="py-5 mb-5 bg-light" />
-
-		<!-- work section -->
-		<SectionsWorks :works="works" class="py-5 mb-5" />
-		<SectionsMoreWorks />
-
-		<!-- work partners -->
-		<SectionsPartners class="py-5 mb-5" />
+	<div class="coming-soon-container">
+		<video 
+			autoplay 
+			muted 
+			loop 
+			playsinline
+			webkit-playsinline="true"
+			preload="metadata"
+			class="coming-soon-video"
+		>
+			<source src="/soon.webm" type="video/webm">
+			<source src="/soon.mp4" type="video/mp4">
+			<source src="/videos/soon.mp4" type="video/mp4">
+			<source src="/assets/videos/soon.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
 	</div>
 </template>
 
 <script>
-	export default {
-		async asyncData({ $content, app }) {
-			const works = await $content(app.i18n.locale, 'works').fetch();
-			const services = await $content(app.i18n.locale, 'services').fetch();
-			return { works, services };
-		},
-		jsonld() {
-			return {
-				'@context': 'https://schema.org',
-				'@type': 'LocalBusiness',
-				name: 'Promotion Efficiency',
-				description: 'A platform of skilled Saudis who are equipped with ambition and creativity in the fields of marketing and advertisement',
-				currenciesAccepted: 'USD, SAR',
-				openingHours: ['Sa-Th 9:00-18:00'],
-				priceRange: '$$',
-				telephone: '+966 56 664 2220',
-				url: 'https://www.promoe.com.sa',
-				geo: {
-					'@type': 'GeoCoordinates',
-					latitude: '26.3075213,',
-					longitude: '50.2243455'
-				},
-				aggregateRating: {
-					'@type': 'AggregateRating',
-					ratingValue: '4.85',
-					reviewCount: '146'
-				},
-				address: {
-					'@type': 'PostalAddress',
-					addressCountry: 'SA',
-					addressLocality: 'Khobar',
-					addressRegion: 'Eastern',
-					postalCode: '34413',
-					streetAddress: '6919 Prince Turki Road'
-				}
-			};
-		},
-		head() {
-			return {
-				title: this.$t('mainpage_title'),
-				titleTemplate: `${this.$t('title')} | %s`,
-				//titleTemplate: null
-				link: [
-					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/layer_5.webp' },
-					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/front_mountain.webp' },
-					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/clouds_2.webp' },
-					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/logo.webp' },
-					{ rel: 'preload', href: 'https://sixdegz.mo.cloudinary.net/promoe/assets/images/hero/back_mountains.webp' },
-				]
-			};
+export default {
+	layout: 'coming-soon',
+	data() {
+		return {
+			lastScrollY: 0,
+			currentScale: 1,
+			minScale: 0.9,
+			maxScale: 1.04,
+			scrollRangePx: 800,
+			ticking: false
 		}
-	};
+	},
+	mounted() {
+		if (process.client) {
+			const h = window.innerHeight || 800
+			this.scrollRangePx = Math.max(500, Math.min(1000, Math.round(h * 0.9)))
+			window.addEventListener('scroll', this.onScroll, { passive: true })
+			this.applyScale(1)
+		}
+	},
+	beforeDestroy() {
+		if (process.client) {
+			window.removeEventListener('scroll', this.onScroll)
+		}
+	},
+	methods: {
+		onScroll() {
+			if (!this.ticking) {
+				this.ticking = true
+				requestAnimationFrame(() => {
+					const y = window.scrollY || window.pageYOffset || 0
+					const downProgress = Math.min(1, Math.max(0, y / this.scrollRangePx))
+					let target = 1 - (1 - this.minScale) * downProgress
+					if (y < this.lastScrollY) target = Math.min(this.maxScale, this.currentScale + 0.01)
+					this.applyScale(target)
+					this.lastScrollY = y
+					this.ticking = false
+				})
+			}
+		},
+		applyScale(val) {
+			const clamped = Math.max(this.minScale, Math.min(this.maxScale, val))
+			this.currentScale = clamped
+			const root = this.$el
+			if (root) root.style.setProperty('--heroScale', String(clamped))
+		},
+	},
+	head() {
+		return {
+			title: 'Coming Soon',
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: 'Website Under Construction'
+				}
+			]
+		}
+	}
+}
 </script>
+
+<style scoped>
+.coming-soon-container {
+	position: relative;
+	width: 100vw;
+	/* Fallback then dynamic viewport for mobile browsers */
+	height: 100vh;
+	height: 100svh;
+	height: 100dvh;
+	min-height: 360px;
+	overflow: hidden;
+	background: #000000;
+}
+
+.coming-soon-video {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(var(--heroScale, 1));
+	z-index: 1;
+	will-change: transform;
+	transition: transform 120ms ease-out;
+}
+</style>
