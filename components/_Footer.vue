@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-dark text-light text-start py-1 py-md-5">
+	<footer class="bg-dark text-light text-start py-1 py-md-5" style="background-color: #000000 !important;">
 		<div class="container py-3 py-md-5">
 			<div class="row row-cols-1">
 				<div class="col text-center text-md-start mb-5 mb-md-0">
@@ -18,6 +18,7 @@
 					<p class="text-white-50">{{ $t('copyrights') }}</p>
 					<p class="mt-3">
 						<nuxt-link class="text-white-50 me-3" :to="localePath({ name: 'pages-slug', params: { slug: 'privacy-policy' } })">{{ $i18n.locale === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy' }}</nuxt-link>
+						<nuxt-link class="text-white-50 me-3" :to="localePath({ name: 'pages-slug', params: { slug: 'jobs' } })">{{ $i18n.locale === 'ar' ? 'الوظائف' : 'Jobs' }}</nuxt-link>
 					</p>
 				</div>
 			</div>
@@ -30,4 +31,10 @@
 </script>
 
 <style>
+footer.bg-dark,
+footer.text-light {
+	background-color: #000000 !important;
+	background: #000000 !important;
+	--bs-dark-rgb: 0, 0, 0 !important;
+}
 </style>
