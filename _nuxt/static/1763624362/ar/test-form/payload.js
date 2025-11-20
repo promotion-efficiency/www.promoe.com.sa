@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ar/test-form", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/coming-soon", {data:[{}],fetch:{},mutations:void 0});
