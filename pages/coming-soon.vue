@@ -1,10 +1,10 @@
 <template>
   <div class="coming-soon-container">
-    <video 
+    <video
       ref="video"
-      autoplay 
-      muted 
-      loop 
+      autoplay
+      muted
+      loop
       playsinline
       class="coming-soon-video"
       @error="onVideoError"
@@ -51,7 +51,7 @@ export default {
   },
   head() {
     return {
-      title: 'Coming Soon',
+      title: 'Coming Soon1',
       meta: [
         {
           hid: 'description',
@@ -106,7 +106,7 @@ export default {
     height: 100%;
     object-fit: cover;
   }
-  
+
   .error-message {
     font-size: 1.5rem;
   }
@@ -120,7 +120,7 @@ export default {
     height: 100%;
     object-fit: cover;
   }
-  
+
   .error-message {
     font-size: 1.2rem;
   }

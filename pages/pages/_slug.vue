@@ -32,6 +32,11 @@ export default {
 						hid: 'description',
 						name: 'description',
 						content: this.page.description
+					},
+					{
+						hid: 'robots',
+						name: 'robots',
+						content: 'noindex, nofollow'
 					}
 				]
 			};

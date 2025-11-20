@@ -4,7 +4,7 @@ export default {
 
 	head: {
 		title: 'Promotion Efficiency - Your Hike to PEAK!',
-		titleTemplate: '%s | Promotion Efficiency',
+		titleTemplate: 'Promotion Efficiency',
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -120,7 +120,7 @@ export default {
 			'tiktok-pixel': ['innerHTML']
 		}
 	},
-	
+
 
 	css: [
 		'~/assets/scss/main.scss'
